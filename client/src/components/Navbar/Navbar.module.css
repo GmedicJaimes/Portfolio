@@ -1,0 +1,46 @@
+.containerNav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  padding: 10px;
+  font-family: "Lexend Deca";
+  background-color: #000814;
+  color: white;
+}
+
+.logoNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.logoNav img {
+  width: 50px;
+}
+.logoNav h1 {
+  padding-left: 5px;
+  font-weight: 500;
+}
+
+.infoNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoNav ul {
+  display: flex;
+  padding-right: 20px;
+}
+
+.infoNav ul li {
+  list-style: none;
+  padding-right: 30px;
+  font-weight: 400;
+}
+
+.infoNav ul li:hover {
+  color: #ffc300;
+  cursor: pointer;
+}

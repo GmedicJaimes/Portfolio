@@ -1,9 +1,11 @@
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div>
-      <h1>Estamos en mi portfolio</h1>
+      <Navbar />
+      {/* <h1>Estamos en mi portfolio</h1> */}
     </div>
   );
 }
