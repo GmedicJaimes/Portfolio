@@ -1,0 +1,53 @@
+.containerAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  height: 70vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  /* background-color: red; */
+
+  font-family: "Lexend Deca";
+}
+
+.infoAbout {
+  width: 70%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.infoAbout h1 {
+  font-size: 4em;
+  font-weight: 600;
+  color: white;
+}
+
+.infoAbout h1 span {
+  background: -webkit-linear-gradient(#ffc300, #d35400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.infoAbout h3 {
+  background: -webkit-linear-gradient(#ffc300, #d35400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.imageAbout {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageAbout img {
+  width: 250px;
+  height: 300px;
+}
