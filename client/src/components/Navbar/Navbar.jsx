@@ -8,7 +8,7 @@ const Navbar = () => {
           src="https://cdn-icons-png.flaticon.com/128/5450/5450925.png"
           alt=""
         />
-        <h1>Portfolio</h1>
+        <h1>Gulliano Jaimes</h1>
       </section>
 
       <section className={style.infoNav}>
