@@ -5,10 +5,10 @@ const About = () => {
   return (
     <section className={style.containerAbout}>
       <div className={style.infoAbout}>
-        <h1>
-          Hello<span>!</span> I'm
-        </h1>
-        <h2>Gulliano Jaimes</h2>
+        <h2>
+          Hi<span>!</span> I'm
+        </h2>
+        <h1>Gulliano Jaimes</h1>
         <h3>Fullstack | Frontend Developer</h3>
         {/* <p>
           I am an enthusiastic Fullstack developer with a passion for technology
