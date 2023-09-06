@@ -13,7 +13,7 @@ const Navbar = () => {
 
       <section className={style.infoNav}>
         <ul>
-          <li>About</li>
+          <li>About Me</li>
           <li>Projects</li>
           <li>Tech Skills</li>
           <li>Contact</li>

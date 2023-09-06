@@ -39,7 +39,9 @@ const About = () => {
         </div>
       </div>
       <div className={style.imageAbout}>
-        <img src={img} alt="" />
+        <div>
+          <img src={img} alt="" />
+        </div>
       </div>
     </section>
   );
