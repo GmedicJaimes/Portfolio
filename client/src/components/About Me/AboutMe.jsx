@@ -1,10 +1,12 @@
+import { useId } from "react";
 import style from "../About Me/AboutMe.module.css";
 
 const AboutMe = () => {
+  const about = useId();
   return (
     <main className={style.containerAboutMe}>
       <h5>Get To Know More</h5>
-      <h1>About Me</h1>
+      <h1 id={about}>About Me</h1>
       <section className={style.aboutMeInfo}>
         <div className={style.aboutMeSection}>
           <img

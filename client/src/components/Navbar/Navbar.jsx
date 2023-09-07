@@ -1,7 +1,10 @@
+import { useId, useRef } from "react";
 import AboutMe from "../About Me/AboutMe";
 import style from "../Navbar/Navbar.module.css";
 
 const Navbar = () => {
+  const about = useId();
+
   return (
     <nav className={style.containerNav}>
       <section className={style.logoNav}>
@@ -15,7 +18,8 @@ const Navbar = () => {
       <section className={style.infoNav}>
         <ul>
           <li>
-            <a href="#About">About Me</a>
+            {/* <Link to={"/about"}>About Me</Link> */}
+            <a href="#about">About Me</a>
           </li>
           <li>
             <a href="#Projects">Projects</a>

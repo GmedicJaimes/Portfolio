@@ -1,5 +1,6 @@
 import img from "../../assets/foto3.png";
 import style from "../About/About.module.css";
+import CV from "../../../public/Gulliano Jaimes Fullstack Dev - CV.pdf";
 
 const About = () => {
   return (
@@ -24,7 +25,7 @@ const About = () => {
               alt=""
             />
           </a>
-          <a href="">
+          <a href={CV} download={""}>
             <img
               src="https://cdn-icons-png.flaticon.com/128/909/909263.png"
               alt=""
