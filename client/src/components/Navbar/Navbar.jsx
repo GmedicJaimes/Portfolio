@@ -1,3 +1,4 @@
+import AboutMe from "../About Me/AboutMe";
 import style from "../Navbar/Navbar.module.css";
 
 const Navbar = () => {
@@ -13,10 +14,18 @@ const Navbar = () => {
 
       <section className={style.infoNav}>
         <ul>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Tech Skills</li>
-          <li>Contact</li>
+          <li>
+            <a href="#About">About Me</a>
+          </li>
+          <li>
+            <a href="#Projects">Projects</a>
+          </li>
+          <li>
+            <a href="#Skills">Tech Skills</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact Me</a>
+          </li>
         </ul>
       </section>
     </nav>

@@ -10,13 +10,7 @@ const About = () => {
         </h2>
         <h1>Gulliano Jaimes</h1>
         <h3>Fullstack | Frontend Developer</h3>
-        {/* <p>
-          I am an enthusiastic Fullstack developer with a passion for technology
-          and software development. I am currently focused on acquiring skills
-          and knowledge in both front-end and back-end development, focusing
-          more on front-end development with the aim of creating efficient and
-          attractive web applications.
-        </p> */}
+
         <div className={style.buttonsAbout}>
           <a href="https://www.linkedin.com/in/gulliano-jaimes/">
             <img

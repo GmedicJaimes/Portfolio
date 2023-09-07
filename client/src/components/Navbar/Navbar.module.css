@@ -1,4 +1,5 @@
 .containerNav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   font-size: 1.2em;
@@ -7,6 +8,7 @@
   background-color: #000814;
   color: white;
   border-bottom: 1px solid #ffc300;
+  position: fixed;
 }
 
 .logoNav {
@@ -41,7 +43,12 @@
   font-weight: 400;
 }
 
-.infoNav ul li:hover {
+.infoNav a {
+  text-decoration: none;
+  color: white;
+}
+
+.infoNav a:hover {
   color: #ffc300;
   cursor: pointer;
 }
