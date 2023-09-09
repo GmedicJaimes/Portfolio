@@ -1,6 +1,7 @@
 import { useId, useRef } from "react";
 import AboutMe from "../About Me/AboutMe";
 import style from "../Navbar/Navbar.module.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const about = useId();
@@ -19,16 +20,16 @@ const Navbar = () => {
         <ul>
           <li>
             {/* <Link to={"/about"}>About Me</Link> */}
-            <a href="#about">About Me</a>
+            <Link to="aboutMe">About Me</Link>
           </li>
           <li>
-            <a href="#Projects">Projects</a>
+            <Link>Projects</Link>
           </li>
           <li>
-            <a href="#Skills">Tech Skills</a>
+            <Link>Tech Skills</Link>
           </li>
           <li>
-            <a href="#Contact">Contact Me</a>
+            <Link>Contact Me</Link>
           </li>
         </ul>
       </section>
