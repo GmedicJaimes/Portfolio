@@ -13,23 +13,57 @@ const Navbar = () => {
           src="https://cdn-icons-png.flaticon.com/128/5450/5450925.png"
           alt=""
         />
-        <h1>Gulliano Jaimes</h1>
+        <Link to={"/"}>
+          <h1>Gulliano Jaimes</h1>
+        </Link>
       </section>
 
       <section className={style.infoNav}>
         <ul>
           <li>
             {/* <Link to={"/about"}>About Me</Link> */}
-            <Link to="aboutMe">About Me</Link>
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to={"about"}
+            >
+              About Me
+            </Link>
           </li>
           <li>
-            <Link>Projects</Link>
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="projects"
+            >
+              Projects
+            </Link>
           </li>
           <li>
-            <Link>Tech Skills</Link>
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="skills"
+            >
+              Tech Skills
+            </Link>
           </li>
           <li>
-            <Link>Contact Me</Link>
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="contact"
+            >
+              Contact Me
+            </Link>
           </li>
         </ul>
       </section>

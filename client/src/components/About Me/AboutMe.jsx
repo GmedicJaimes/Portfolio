@@ -3,9 +3,9 @@ import style from "../About Me/AboutMe.module.css";
 
 const AboutMe = () => {
   return (
-    <section className={style.containerAboutMe}>
+    <section id="about" className={style.containerAboutMe}>
       <h5>Get To Know More</h5>
-      <h1 id="aboutMe">About Me</h1>
+      <h1>About Me</h1>
       <section className={style.aboutMeInfo}>
         <div className={style.aboutMeSection}>
           <img
