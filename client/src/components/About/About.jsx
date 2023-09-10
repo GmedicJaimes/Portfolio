@@ -4,7 +4,7 @@ import CV from "../../../public/Gulliano Jaimes Fullstack Dev - CV.pdf";
 
 const About = () => {
   return (
-    <section className={style.containerAbout}>
+    <section className={style.containerAbout} id="/">
       <div className={style.infoAbout}>
         <h2>
           Hi<span>!</span> I'm

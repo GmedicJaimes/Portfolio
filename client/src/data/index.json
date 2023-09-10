@@ -1,0 +1,26 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "src": "Dream",
+      "title": "Dream Lodge",
+      "description": "1",
+      "deploy": ""
+    },
+    {
+      "id": "2",
+      "src": "Nation",
+      "title": "NationData",
+      "description": "This project is a country data API client. It allows users to search for countries by ID, filter them by population and alphabet, sort them in ascending or descending order, view the detail of a country and create activities. The frontend is written in React, Axios and Redux. The backend is written in Express, Morgan, Nodemon, Sequelize and Axios, and for database use we use Postgresql.",
+      "deploy": "",
+      "github": "https://github.com/GmedicJaimes/PI-Countries"
+    },
+    {
+      "id": "3",
+      "src": "R&M",
+      "title": "Rick and Morty",
+      "description": "This project is a Rick and Morty API client. It allows users to search for characters by their ID, save them to favorites, and perform other actions. The frontend is written in React, Axios and Redux. The backend is written in Express, Morgan, Nodemon, Sequelize and Axios.",
+      "deploy": ""
+    }
+  ]
+}

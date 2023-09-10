@@ -4,8 +4,6 @@ import style from "../Navbar/Navbar.module.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const about = useId();
-
   return (
     <nav className={style.containerNav}>
       <section className={style.logoNav}>
@@ -13,57 +11,27 @@ const Navbar = () => {
           src="https://cdn-icons-png.flaticon.com/128/5450/5450925.png"
           alt=""
         />
-        <Link to={"/"}>
+        {/* <Link to="/">
           <h1>Gulliano Jaimes</h1>
-        </Link>
+        </Link> */}
+        <a href="/">
+          <h1>Gulliano Jaimes</h1>
+        </a>
       </section>
 
       <section className={style.infoNav}>
         <ul>
           <li>
-            {/* <Link to={"/about"}>About Me</Link> */}
-            <Link
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to={"about"}
-            >
-              About Me
-            </Link>
+            <a href="#about">About Me</a>
           </li>
           <li>
-            <Link
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="projects"
-            >
-              Projects
-            </Link>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <Link
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="skills"
-            >
-              Tech Skills
-            </Link>
+            <a href="#skills">Tech Skills</a>
           </li>
           <li>
-            <Link
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="contact"
-            >
-              Contact Me
-            </Link>
+            <a href="#contact">Contact Me</a>
           </li>
         </ul>
       </section>

@@ -1,19 +1,19 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import AboutMe from "./components/About Me/AboutMe";
+import About from "./components/About/About";
 import Navbar from "./components/Navbar/Navbar";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./Views/Home";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
     <div>
-      <Router>
-        <div>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />}></Route>
-          </Routes>
-        </div>
-      </Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<About />} />
+      </Routes>
+      <AboutMe />
+      <Projects />
     </div>
   );
 }
