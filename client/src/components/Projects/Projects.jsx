@@ -1,5 +1,7 @@
 import style from "./Projects.module.css";
-import img1 from "../../assets/foto.jpg";
+import img1 from "../../assets/img/DL.jpg";
+import img2 from "../../assets/img/ND.jpg";
+import img3 from "../../assets/img/RM.jpg";
 
 const Projects = () => {
   return (
@@ -19,21 +21,29 @@ const Projects = () => {
           </div>
         </a>
 
-        <a href="">
+        <a href="https://pi-nacion-data.vercel.app/" target="_blank">
           <div className={style.cardProjects}>
-            <img src={img1} alt="project 2" />
+            <img src={img2} alt="project 2" />
 
             <div>
               <h3>NationData</h3>
-              <p>Descripcion</p>
-              <p>Tecnologies</p>
+              <p>
+                This project is a country data API client. It allows users to
+                search for countries by ID, filter them by population and
+                alphabet, etc.{" "}
+              </p>
+              {/* <p>
+                The frontend is written in React, Axios and Redux. The backend
+                is written in Express, Morgan, Nodemon, Sequelize and Axios, and
+                for database use we use Postgresql.
+              </p> */}
             </div>
           </div>
         </a>
 
-        <a href="">
+        <a href="https://rick-and-morty-rust-seven.vercel.app/" target="_blank">
           <div className={style.cardProjects}>
-            <img src={img1} alt="project 3" />
+            <img src={img3} alt="project 3" />
 
             <div>
               <h3>Rick & Morty</h3>
