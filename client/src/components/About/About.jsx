@@ -1,6 +1,6 @@
 import img from "../../assets/foto3.png";
 import style from "../About/About.module.css";
-import CV from "../../../public/Gulliano Jaimes Fullstack Dev - CV.pdf";
+import CV from "../../Gulliano Jaimes Fullstack Dev - CV.pdf";
 
 const About = () => {
   return (

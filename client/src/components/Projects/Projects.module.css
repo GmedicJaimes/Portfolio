@@ -1,3 +1,65 @@
-.h1 {
+.containerProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  /* background-color: aqua; */
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 10%;
+  font-family: "Lexend Deca";
+}
+
+.containerProjects h5 {
+  color: rgba(255, 255, 255, 0.473);
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.containerProjects h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 2.2em;
+  margin-bottom: 80px;
+}
+
+.projectsCards {
+  display: flex;
+  gap: 30px;
+}
+
+.projectsCards a {
+  text-decoration: none;
   color: white;
+}
+
+.projectsCards a:hover {
+  transform: scale(1.05);
+  transition: all 600ms ease;
+}
+
+.cardProjects {
+  width: 280px;
+  height: 320px;
+  background-color: rgba(255, 255, 255, 0.274);
+  border: none;
+  border-radius: 10px;
+}
+
+.cardProjects img {
+  width: 100%;
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cardProjects div {
+  padding: 10px;
+}
+
+.cardProjects h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #ff9700;
 }
