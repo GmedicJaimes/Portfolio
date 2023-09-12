@@ -65,11 +65,13 @@
   font-size: 1.4em;
   font-weight: 400;
   color: #da870a;
+  margin-bottom: 5px;
 }
 
 .cardProjects p {
-  font-size: 0.95em;
+  font-size: 0.8em;
   font-weight: 300;
+  margin-bottom: 5px;
   /* color: #000814; */
   /* background-color: #da870a; */
 }
