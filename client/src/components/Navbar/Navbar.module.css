@@ -25,6 +25,7 @@
 .logoNav a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 .logoNav h1 {

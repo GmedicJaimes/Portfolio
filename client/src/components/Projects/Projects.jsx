@@ -38,7 +38,7 @@ const Projects = () => {
                 alphabet, etc.{" "}
               </p>
               <p>Frontend: HTML, CSS, JS, React, and Redux.</p>
-              <p>Backend: ExpressJs, NodeJs, Sequelize,Morgan and others </p>
+              <p>Backend: ExpressJs, NodeJs, Sequelize, Morgan and others </p>
             </div>
           </div>
         </a>

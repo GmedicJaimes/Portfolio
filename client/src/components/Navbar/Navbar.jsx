@@ -1,7 +1,7 @@
 import { useId, useRef } from "react";
 import AboutMe from "../About Me/AboutMe";
 import style from "../Navbar/Navbar.module.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -11,27 +11,63 @@ const Navbar = () => {
           src="https://cdn-icons-png.flaticon.com/128/5450/5450925.png"
           alt=""
         />
-        {/* <Link to="/">
+        <Link to="/" spy={true} smooth={true} offset={50} duration={1000}>
           <h1>Gulliano Jaimes</h1>
-        </Link> */}
-        <a href="/">
+        </Link>
+        {/* <a href="/">
           <h1>Gulliano Jaimes</h1>
-        </a>
+        </a> */}
       </section>
 
       <section className={style.infoNav}>
         <ul>
           <li>
-            <a href="#about">About Me</a>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={1000}
+            >
+              About Me
+            </Link>
+            {/* <a href="#about">About Me</a> */}
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={100}
+              duration={1000}
+            >
+              Projects
+            </Link>
+            {/* <a href="#projects">Projects</a> */}
           </li>
           <li>
-            <a href="#skills">Tech Skills</a>
+            <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={1000}
+            >
+              Tech Skills
+            </Link>
+            {/* <a href="#skills">Tech Skills</a> */}
           </li>
           <li>
-            <a href="#contact">Contact Me</a>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={1000}
+            >
+              Contact Me
+            </Link>
+            {/* <a href="#contact">Contact Me</a> */}
           </li>
         </ul>
       </section>
