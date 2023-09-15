@@ -13,13 +13,16 @@ const About = () => {
         <h3>Fullstack | Frontend Developer</h3>
 
         <div className={style.buttonsAbout}>
-          <a href="https://www.linkedin.com/in/gulliano-jaimes/">
+          <a
+            href="https://www.linkedin.com/in/gulliano-jaimes/"
+            target="_blank"
+          >
             <img
               src="https://cdn-icons-png.flaticon.com/128/61/61109.png"
               alt=""
             />
           </a>
-          <a href="https://github.com/GmedicJaimes">
+          <a href="https://github.com/GmedicJaimes" target="_blank">
             <img
               src="https://cdn-icons-png.flaticon.com/128/733/733609.png"
               alt=""

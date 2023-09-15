@@ -61,16 +61,25 @@
 }
 
 .cardProjects h3 {
-  font-size: 1.4em;
-  font-weight: 400;
+  font-size: 1.2em;
+  font-weight: 500;
   color: #da870a;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #da870a96;
 }
 
 .cardProjects p {
   font-size: 0.8em;
-  font-weight: 300;
-  margin-bottom: 5px;
-  /* color: #000814; */
-  /* background-color: #da870a; */
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.596);
+}
+
+.cardProjects .cardP {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: white;
+  /* line-height: 0.1em; */
+  /* margin-top: 55px; */
 }

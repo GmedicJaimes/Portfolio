@@ -20,8 +20,10 @@ const Projects = () => {
                 accommodation, whether in houses, apartments, rooms or holiday
                 properties.
               </p>
-              <p>Frontend: HTML, CSS, JS, React, Material UI and others.</p>
-              <p>Backend: Axios, NodeJs, Firebase, Firestore, and others.</p>
+              <p className={style.cardP}>
+                Tech used: HTML, CSS, JS, React, Material UI, Axios, NodeJs,
+                Firebase, Firestore, and others.
+              </p>
             </div>
           </div>
         </a>
@@ -37,8 +39,10 @@ const Projects = () => {
                 search for countries by ID, filter them by population and
                 alphabet, etc.{" "}
               </p>
-              <p>Frontend: HTML, CSS, JS, React, and Redux.</p>
-              <p>Backend: ExpressJs, NodeJs, Sequelize, Morgan and others </p>
+              <p className={style.cardP}>
+                Tech used: HTML, CSS, JS, React, Redux, ExpressJs, NodeJs,
+                Sequelize, Morgan and others{" "}
+              </p>
             </div>
           </div>
         </a>
@@ -54,10 +58,9 @@ const Projects = () => {
                 search for characters by their ID, save them to favorites, and
                 perform other actions.
               </p>
-              <p>Frontend: HTML, CSS, React, Redux, etc</p>
-              <p>
-                Backend: ExpressJs, NodeJs, Morgan, Nodemon, Sequelize,
-                PostgreSQL
+              <p className={style.cardP}>
+                Tech used: HTML, CSS, React, Redux, ExpressJs, NodeJs, Morgan,
+                Nodemon, Sequelize, PostgreSQL
               </p>
             </div>
           </div>
