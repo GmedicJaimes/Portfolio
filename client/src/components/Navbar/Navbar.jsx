@@ -11,7 +11,7 @@ const Navbar = () => {
           src="https://cdn-icons-png.flaticon.com/128/5450/5450925.png"
           alt=""
         />
-        <Link to="/" spy={true} smooth={true} offset={50} duration={1000}>
+        <Link to="/" spy={true} smooth={true} offset={50} duration={1500}>
           <h1>Gulliano Jaimes</h1>
         </Link>
         {/* <a href="/">
@@ -27,7 +27,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={50}
-              duration={1000}
+              duration={1500}
             >
               About Me
             </Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={100}
-              duration={1000}
+              duration={1500}
             >
               Projects
             </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={50}
-              duration={1000}
+              duration={1500}
             >
               Tech Skills
             </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={50}
-              duration={1000}
+              duration={1500}
             >
               Contact Me
             </Link>
