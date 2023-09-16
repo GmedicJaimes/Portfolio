@@ -63,7 +63,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={50}
-              duration={1500}
+              duration={2000}
             >
               Contact Me
             </Link>
