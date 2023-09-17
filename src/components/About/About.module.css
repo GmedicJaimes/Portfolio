@@ -1,0 +1,98 @@
+.containerAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  height: 100vh;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  font-family: "Lexend Deca";
+}
+
+.infoAbout {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.infoAbout h1 {
+  font-size: 4.5em;
+  font-weight: 600;
+  color: white;
+}
+
+.infoAbout h2 {
+  font-size: 3em;
+  font-weight: 600;
+  color: white;
+}
+
+.infoAbout h2 span {
+  background: -webkit-linear-gradient(#ffc300, #d35400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.infoAbout h3 {
+  background: -webkit-linear-gradient(#ffc300, #d35400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.buttonsAbout {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.buttonsAbout a {
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.buttonsAbout a img {
+  width: 25px;
+  height: 25px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(240deg)
+    brightness(105%) contrast(102%);
+}
+
+.buttonsAbout a img:hover {
+  filter: invert(78%) sepia(76%) saturate(4795%) hue-rotate(3deg)
+    brightness(103%) contrast(107%);
+  transform: scale(1.2);
+  transition: 20ms;
+}
+
+.imageAbout {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageAbout div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#d35400 0%, #ffc300 100%);
+  border-radius: 50%;
+  width: 100%;
+  height: 310px;
+}
+
+.imageAbout img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96%;
+  height: 300px;
+  border-radius: 50%;
+}

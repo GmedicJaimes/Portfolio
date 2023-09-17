@@ -1,0 +1,85 @@
+.containerProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 14%;
+  font-family: "Lexend Deca";
+  /* background-color: #da870a; */
+}
+
+.containerProjects h5 {
+  color: rgba(255, 255, 255, 0.473);
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.containerProjects h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 2.2em;
+  margin-bottom: 80px;
+}
+
+.projectsCards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.projectsCards a {
+  text-decoration: none;
+  color: white;
+}
+
+.projectsCards a:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+.cardProjects {
+  width: 303px;
+  height: 380px;
+  background-color: rgba(128, 128, 128, 0.247);
+  border-radius: 10px;
+}
+
+.cardProjects img {
+  width: 100%;
+  height: 140px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-size: cover;
+}
+
+.cardProjects div {
+  padding: 10px;
+}
+
+.cardProjects h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #da870a;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #da870a96;
+}
+
+.cardProjects p {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.596);
+}
+
+.cardProjects .cardP {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: white;
+  /* line-height: 0.1em; */
+  /* margin-top: 55px; */
+}
