@@ -3,6 +3,8 @@ import AboutMe from "../About Me/AboutMe";
 import style from "../Navbar/Navbar.module.css";
 import { Link } from "react-scroll";
 
+import { FormattedMessage } from "react-intl";
+
 const Navbar = () => {
   return (
     <nav className={style.containerNav}>
@@ -29,7 +31,7 @@ const Navbar = () => {
               offset={50}
               duration={1500}
             >
-              About Me
+              <FormattedMessage id="nav.aboutme" defaultMessage="Sobre Mi" />
             </Link>
             {/* <a href="#about">About Me</a> */}
           </li>
@@ -41,7 +43,7 @@ const Navbar = () => {
               offset={100}
               duration={1500}
             >
-              Projects
+              <FormattedMessage id="nav.projects" defaultMessage="Proyectos" />
             </Link>
             {/* <a href="#projects">Projects</a> */}
           </li>
@@ -53,7 +55,7 @@ const Navbar = () => {
               offset={50}
               duration={1500}
             >
-              Tech Skills
+              <FormattedMessage id="nav.skills" defaultMessage="Habilidades " />
             </Link>
             {/* <a href="#skills">Tech Skills</a> */}
           </li>
@@ -65,7 +67,7 @@ const Navbar = () => {
               offset={50}
               duration={2000}
             >
-              Contact Me
+              <FormattedMessage id="nav.contact" defaultMessage="Contactame" />
             </Link>
             {/* <a href="#contact">Contact Me</a> */}
           </li>
