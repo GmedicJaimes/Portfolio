@@ -39,6 +39,22 @@
   align-items: center;
 }
 
+.infoNav div {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.en {
+  margin-right: 30px;
+}
+
+.infoNav img {
+  width: 30px;
+  height: 30px;
+}
+
 .infoNav ul {
   display: flex;
   padding-right: 20px;

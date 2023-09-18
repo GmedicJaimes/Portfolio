@@ -70,6 +70,18 @@ const Navbar = () => {
             {/* <a href="#contact">Contact Me</a> */}
           </li>
         </ul>
+        <div data-language="es">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/330/330557.png"
+            alt=""
+          />
+        </div>
+        <div data-language="en" className={style.en}>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/330/330425.png"
+            alt=""
+          />
+        </div>
       </section>
     </nav>
   );
