@@ -20,6 +20,9 @@ const About = () => {
         </h2>
         <h1>Gulliano Jaimes</h1>
         <h3>Fullstack | Frontend Developer</h3>
+        {/* <h3>
+          <FormattedMessage id="about.dev" defaultMessage="Fullstack" />
+        </h3> */}
 
         <div className={style.buttonsAbout}>
           <a

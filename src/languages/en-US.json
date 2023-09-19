@@ -7,6 +7,7 @@
   "about.title" : "Hi",
   "about.span" : "!",
   "about.secondpart" : "I'm",
+  "about.dev" : "Fullstack | Frontend Developer",
   
   "aboutme.subtitle" : "Get To Know More",
   "aboutme.title" : "About Me",
@@ -28,6 +29,10 @@
   "projects.two.tech" : "Tech used: HTML, CSS, JS, React, Redux, ExpressJs, NodeJs, Sequelize, Morgan and others.",
 
   "projects.three.info" : "This project is a Rick and Morty API client. It allows users to search for characters by their ID, save them to favorites, and perform other actions.",
-  "projects.three.tech" : "Tech used: HTML, CSS, React, Redux, ExpressJs, NodeJs, Morgan, Nodemon, Sequelize, PostgreSQL."
+  "projects.three.tech" : "Tech used: HTML, CSS, React, Redux, ExpressJs, NodeJs, Morgan, Nodemon, Sequelize, PostgreSQL.",
+
+  "skills.subtitle" : "Know My",
+  "skills.title" : "Skills",
+  "skills.other" : "Others"
 
 }

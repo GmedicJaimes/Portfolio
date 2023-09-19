@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import style from "./Skills.module.css";
 
 const Skills = () => {
@@ -13,8 +14,12 @@ const Skills = () => {
 
   return (
     <section id="skills" className={style.containerSkills}>
-      <h5>Know my</h5>
-      <h1>Skills</h1>
+      <h5>
+        <FormattedMessage id="skills.subtitle" defaultMessage="conoceme" />
+      </h5>
+      <h1>
+        <FormattedMessage id="skills.title" defaultMessage="habilidades" />
+      </h1>
       <div className={style.skills}>
         <div className={style.cardSkills}>
           <div className={style.cardSkillsTitle}>
@@ -51,7 +56,9 @@ const Skills = () => {
               src="https://cdn-icons-png.flaticon.com/128/100/100852.png"
               alt="others"
             />
-            <h3>Others</h3>
+            <h3>
+              <FormattedMessage id="skills.other" defaultMessage="otros" />
+            </h3>
           </div>
           {other.map((item) => (
             <ul key={item}>
