@@ -77,7 +77,7 @@ const Form = () => {
           maxLength="500"
           id="message"
           name="message"
-          placeholder={<FormattedMessage id="contact.place" />}
+          placeholder="Type your message"
           required
         />
 

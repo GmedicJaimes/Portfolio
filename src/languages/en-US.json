@@ -40,6 +40,5 @@
   "contact.one" : "Name",
   "contact.two" : "Email",
   "contact.three" : "Message",
-  "contact.place" : "Type your message",
   "contact.button" : "Submit"
 }
