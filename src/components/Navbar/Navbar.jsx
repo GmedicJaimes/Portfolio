@@ -1,11 +1,14 @@
-import { useId, useRef } from "react";
+import { useContext } from "react";
 import AboutMe from "../About Me/AboutMe";
 import style from "../Navbar/Navbar.module.css";
 import { Link } from "react-scroll";
 
 import { FormattedMessage } from "react-intl";
+import { langContext } from "../../context/langContext";
 
 const Navbar = () => {
+  const idioma = useContext(langContext);
+
   return (
     <nav className={style.containerNav}>
       <section className={style.logoNav}>
@@ -72,18 +75,18 @@ const Navbar = () => {
             {/* <a href="#contact">Contact Me</a> */}
           </li>
         </ul>
-        <div data-language="es">
+        <button onClick={() => idioma.langChange("es-ES")}>
           <img
             src="https://cdn-icons-png.flaticon.com/128/330/330557.png"
             alt=""
           />
-        </div>
-        <div data-language="en" className={style.en}>
+        </button>
+        <button className={style.en} onClick={() => idioma.langChange("en-US")}>
           <img
             src="https://cdn-icons-png.flaticon.com/128/330/330425.png"
             alt=""
           />
-        </div>
+        </button>
       </section>
     </nav>
   );

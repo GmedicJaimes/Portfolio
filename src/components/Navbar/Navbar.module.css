@@ -39,11 +39,14 @@
   align-items: center;
 }
 
-.infoNav div {
+.infoNav button {
+  background-color: transparent;
+  border: none;
   width: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .en {

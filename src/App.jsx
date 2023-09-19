@@ -9,7 +9,6 @@ import Form from "./components/Form/Form";
 import React, { useContext } from "react";
 
 import { langContext } from "./context/langContext";
-import { IntlProvider } from "react-intl";
 import es from "../src/languages/es-ES.json";
 import en from "../src/languages/en-US.json";
 
@@ -18,18 +17,16 @@ function App() {
 
   console.log(idioma);
   return (
-    <IntlProvider locale="es-ES" messages={es}>
-      <div>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<About />} />
-        </Routes>
-        <AboutMe />
-        <Projects />
-        <Skills />
-        <Form />
-      </div>
-    </IntlProvider>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<About />} />
+      </Routes>
+      <AboutMe />
+      <Projects />
+      <Skills />
+      <Form />
+    </div>
   );
 }
 

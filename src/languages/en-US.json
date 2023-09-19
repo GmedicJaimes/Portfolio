@@ -1,7 +1,11 @@
 {
-  "app.title" : "Hi",
-  "app.title.span" : "!",
-  "app.title.secondpart" : "I'm"
-
+  "about.title" : "Hi",
+  "about.span" : "!",
+  "about.secondpart" : "I'm",
+  
+  "nav.aboutme" : "About Me",
+  "nav.projects" : "Projects",
+  "nav.skills" : "Skills",
+  "nav.contact" : "Contact Me"
 
 }
