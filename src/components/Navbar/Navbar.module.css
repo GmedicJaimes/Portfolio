@@ -9,6 +9,7 @@
   color: white;
   border-bottom: 1px solid #ffc300;
   position: fixed;
+  top: 0;
 }
 
 .logoNav {
@@ -26,6 +27,7 @@
   text-decoration: none;
   color: white;
   cursor: pointer;
+  font-size: 0.85em;
 }
 
 .logoNav h1 {

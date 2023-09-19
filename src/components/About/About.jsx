@@ -3,8 +3,6 @@ import style from "../About/About.module.css";
 import CV from "../../Gulliano Jaimes Fullstack Dev - CV.pdf";
 
 import { FormattedMessage } from "react-intl";
-import es from "../../languages/es-ES.json";
-import en from "../../languages/en-US.json";
 
 const About = () => {
   return (

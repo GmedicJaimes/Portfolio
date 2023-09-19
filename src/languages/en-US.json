@@ -33,6 +33,13 @@
 
   "skills.subtitle" : "Know My",
   "skills.title" : "Skills",
-  "skills.other" : "Others"
+  "skills.other" : "Others",
 
+  "contact.subtitle" : "Let's Stay In Touch",
+  "contact.title" : "Contact Me",
+  "contact.one" : "Name",
+  "contact.two" : "Email",
+  "contact.three" : "Message",
+  "contact.place" : "Type your message",
+  "contact.button" : "Submit"
 }

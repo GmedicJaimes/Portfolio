@@ -4,13 +4,9 @@ import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 
 import style from "./Form.module.css";
+import { FormattedMessage } from "react-intl";
 
 const Form = () => {
-  // const [state, handleSubmit] = useForm("mwkdqbwp");
-  // if (state.succeeded) {
-  //   return alert("Mensaje enviado con exito");
-  // }
-
   const refForm = useRef();
 
   const handleSubmit = (event) => {
@@ -37,8 +33,13 @@ const Form = () => {
 
   return (
     <section className={style.containerForm}>
-      <h5>Let's Stay In Touch</h5>
-      <h1>Contact Me</h1>
+      <h5>
+        <FormattedMessage id="contact.subtitle" defaultMessage="contacto" />
+      </h5>
+      <h1>
+        {" "}
+        <FormattedMessage id="contact.title" defaultMessage="contactame" />
+      </h1>
 
       <form
         ref={refForm}
@@ -46,7 +47,10 @@ const Form = () => {
         id="contact"
         className={style.form}
       >
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">
+          {" "}
+          <FormattedMessage id="contact.one" defaultMessage="nombre" />
+        </label>
         <input
           id="name"
           type="text"
@@ -55,7 +59,9 @@ const Form = () => {
           required
         />
 
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email">
+          <FormattedMessage id="contact.two" defaultMessage="correo" />
+        </label>
         <input
           id="email"
           type="email"
@@ -64,16 +70,20 @@ const Form = () => {
           required
         />
 
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message">
+          <FormattedMessage id="contact.three" defaultMessage="mensaje" />
+        </label>
         <textarea
           maxLength="500"
           id="message"
           name="message"
-          placeholder="Type yout message"
+          placeholder={<FormattedMessage id="contact.place" />}
           required
         />
 
-        <button type="submit">Submit</button>
+        <button type="submit">
+          <FormattedMessage id="contact.button" defaultMessage="enviar" />
+        </button>
       </form>
     </section>
   );

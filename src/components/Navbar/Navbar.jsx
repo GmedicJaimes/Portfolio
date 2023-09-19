@@ -2,6 +2,7 @@ import { useContext } from "react";
 import AboutMe from "../About Me/AboutMe";
 import style from "../Navbar/Navbar.module.css";
 import { Link } from "react-scroll";
+import logo from "../../assets/icons/logo.png";
 
 import { FormattedMessage } from "react-intl";
 import { langContext } from "../../context/langContext";
@@ -11,20 +12,17 @@ const Navbar = () => {
 
   return (
     <nav className={style.containerNav}>
-      <section className={style.logoNav}>
-        <img
-          src="https://cdn-icons-png.flaticon.com/128/5450/5450925.png"
-          alt=""
-        />
+      <div className={style.logoNav}>
+        <img src={logo} alt="" />
         <Link to="/" spy={true} smooth={true} offset={50} duration={1500}>
           <h1>Gulliano Jaimes</h1>
         </Link>
         {/* <a href="/">
           <h1>Gulliano Jaimes</h1>
         </a> */}
-      </section>
+      </div>
 
-      <section className={style.infoNav}>
+      <div className={style.infoNav}>
         <ul>
           <li>
             <Link
@@ -87,7 +85,7 @@ const Navbar = () => {
             alt=""
           />
         </button>
-      </section>
+      </div>
     </nav>
   );
 };
