@@ -2,12 +2,20 @@ import style from "./Projects.module.css";
 import img1 from "../../assets/img/DL.jpg";
 import img2 from "../../assets/img/ND.jpg";
 import img3 from "../../assets/img/RM.jpg";
+import { FormattedMessage } from "react-intl";
 
 const Projects = () => {
   return (
     <section id="projects" className={style.containerProjects}>
-      <h5>Browse My Recent</h5>
-      <h1>Projects</h1>
+      <h5>
+        <FormattedMessage
+          id="projects.subtitle"
+          defaultMessage="Explora mis recientes"
+        />
+      </h5>
+      <h1>
+        <FormattedMessage id="projects.title" defaultMessage="title" />
+      </h1>
 
       <div className={style.projectsCards}>
         <a href="https://dreamlodgeprueba.web.app/" target="_blank">
@@ -16,13 +24,16 @@ const Projects = () => {
             <div>
               <h3>DreamLodge</h3>
               <p>
-                Online platform that facilitates the booking of temporary
-                accommodation, whether in houses, apartments, rooms or holiday
-                properties.
+                <FormattedMessage
+                  id="projects.one.info"
+                  defaultMessage="info proyecto"
+                />
               </p>
               <p className={style.cardP}>
-                Tech used: HTML, CSS, JS, React, Material UI, Axios, NodeJs,
-                Firebase, Firestore, and others.
+                <FormattedMessage
+                  id="projects.one.tech"
+                  defaultMessage="info proyecto"
+                />
               </p>
             </div>
           </div>
@@ -35,13 +46,16 @@ const Projects = () => {
             <div>
               <h3>NationData</h3>
               <p>
-                This project is a country data API client. It allows users to
-                search for countries by ID, filter them by population and
-                alphabet, etc.{" "}
+                <FormattedMessage
+                  id="projects.two.info"
+                  defaultMessage="info proyecto"
+                />
               </p>
               <p className={style.cardP}>
-                Tech used: HTML, CSS, JS, React, Redux, ExpressJs, NodeJs,
-                Sequelize, Morgan and others{" "}
+                <FormattedMessage
+                  id="projects.two.tech"
+                  defaultMessage="info proyecto"
+                />
               </p>
             </div>
           </div>
@@ -54,13 +68,16 @@ const Projects = () => {
             <div>
               <h3>Rick & Morty</h3>
               <p>
-                This project is a Rick and Morty API client. It allows users to
-                search for characters by their ID, save them to favorites, and
-                perform other actions.
+                <FormattedMessage
+                  id="projects.three.info"
+                  defaultMessage="info proyecto"
+                />
               </p>
               <p className={style.cardP}>
-                Tech used: HTML, CSS, React, Redux, ExpressJs, NodeJs, Morgan,
-                Nodemon, Sequelize, PostgreSQL
+                <FormattedMessage
+                  id="projects.three.tech"
+                  defaultMessage="info proyecto"
+                />
               </p>
             </div>
           </div>

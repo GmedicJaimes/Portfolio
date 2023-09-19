@@ -1,11 +1,33 @@
 {
+  "nav.aboutme" : "About Me",
+  "nav.projects" : "Projects",
+  "nav.skills" : "Skills",
+  "nav.contact" : "Contact Me",
+
   "about.title" : "Hi",
   "about.span" : "!",
   "about.secondpart" : "I'm",
   
-  "nav.aboutme" : "About Me",
-  "nav.projects" : "Projects",
-  "nav.skills" : "Skills",
-  "nav.contact" : "Contact Me"
+  "aboutme.subtitle" : "Get To Know More",
+  "aboutme.title" : "About Me",
+  "aboutme.title.experience" : "Experience",
+  "aboutme.experience" : "+10 months Frontend developer",
+  "aboutme.experience.two" : "+4 months Fullstack developer",
+  "aboutme.title.education" : "Education",
+  "aboutme.education" : "SoyHenry Bootcamp (FullStack Developer)",
+  "aboutme.education.two" : "Platzi (Frontend Developer)",
+  "aboutme.information" : "I am an enthusiastic Fullstack developer with a passion for technology and software development. I am currently focused on acquiring skills and knowledge in both front-end and back-end development, focusing more on front-end development with the aim of creating efficient and attractive web applications",
+  "aboutme.information.two" : "Although I still have no professional experience in the field, my youth and enthusiasm allow me to keep abreast of the latest trends and technologies in the field of web development. In addition, my academic background in Fullstack Development has provided me with a solid foundation to tackle projects and learn quickly and effectively.",
+
+  "projects.subtitle" : "Browse My Recent",
+  "projects.title" : "Projects",
+  "projects.one.info" : "Online platform that facilitates the booking of temporary accommodation, whether in houses, apartments, rooms or holiday properties.",
+  "projects.one.tech" : "Tech used: HTML, CSS, JS, React, Material UI, Axios, NodeJs,Firebase, Firestore, and others.",
+
+  "projects.two.info" : "This project is a country data API client. It allows users to search for countries by ID, filter them by population and alphabet, etc",
+  "projects.two.tech" : "Tech used: HTML, CSS, JS, React, Redux, ExpressJs, NodeJs, Sequelize, Morgan and others.",
+
+  "projects.three.info" : "This project is a Rick and Morty API client. It allows users to search for characters by their ID, save them to favorites, and perform other actions.",
+  "projects.three.tech" : "Tech used: HTML, CSS, React, Redux, ExpressJs, NodeJs, Morgan, Nodemon, Sequelize, PostgreSQL."
 
 }

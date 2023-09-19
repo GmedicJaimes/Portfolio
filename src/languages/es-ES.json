@@ -1,11 +1,32 @@
 {
+  "nav.aboutme" : "Sobre Mi",
+  "nav.projects" : "Proyectos",
+  "nav.skills" : "Habilidades",
+  "nav.contact" : "Contactame",
   
   "about.title" : "Hola",
   "about.span" : "!",
   "about.secondpart" : "Soy",
-  
-  "nav.aboutme" : "Sobre Mi",
-  "nav.projects" : "Proyectos",
-  "nav.skills" : "Habilidades",
-  "nav.contact" : "Contactame"
+
+  "aboutme.subtitle" : "Conoce más",
+  "aboutme.title" : "Sobre Mi",
+  "aboutme.title.experience" : "Experiencia",
+  "aboutme.experience" : "+10 meses Desarrollador Frontend",
+  "aboutme.experience.two" : "+4 months Desarrollador Fullstack",
+  "aboutme.title.education" : "Educación",
+  "aboutme.education" : "SoyHenry Bootcamp (Desarrollador Fullstack)",
+  "aboutme.education.two" : "Platzi (Desarrollador Frontend)",
+  "aboutme.information" : "Soy un entusiasta desarrollador Fullstack con una pasión por la tecnología y el desarrollo de software. Actualmente estoy enfocado en adquirir habilidades y conocimientos tanto en desarrollo front-end como back-end, centrándome más en el desarrollo front-end con el objetivo de crear aplicaciones web eficientes y atractivas.",
+  "aboutme.information.two" : "Aunque todavía no tengo experiencia profesional en el campo, mi juventud y entusiasmo me permiten estar al tanto de las últimas tendencias y tecnologías en el campo del desarrollo web. Además, mi formación académica en Desarrollo Fullstack me ha proporcionado una base sólida para abordar proyectos y aprender de forma rápida y efectiva.",
+
+  "projects.subtitle" : "Explora Mis Recientes",
+  "projects.title" : "Proyectos",
+  "projects.one.info" : "Plataforma en línea que facilita la reserva de alojamientos temporales, ya sea en casas, apartamentos, habitaciones o propiedades vacacionales.",
+  "projects.one.tech": "Tecnología utilizada: HTML, CSS, JS, React, Material UI, Axios, NodeJs, Firebase, Firestore y otros.",
+
+  "projects.two.info" : "Este proyecto es un cliente API de datos de país. Permite a los usuarios buscar países por ID, filtrarlos por población y alfabeto, etc.",
+  "projects.two.tech" : "Tecnología utilizada: HTML, CSS, JS, React, Redux, ExpressJs, NodeJs, Sequelize, Morgan y otros.",
+
+  "projects.three.info" : "Este proyecto es un cliente API de Rick y Morty. Permite a los usuarios buscar caracteres por su ID, guardarlos en favoritos y realizar otras acciones.",
+  "projects.three.tech" : "Tecnología utilizada: HTML, CSS, React, Redux, ExpressJs, NodeJs, Morgan, Nodemon, Sequelize, PostgreSQL."
 }
