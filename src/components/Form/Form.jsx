@@ -34,11 +34,14 @@ const Form = () => {
   return (
     <section className={style.containerForm}>
       <h5>
-        <FormattedMessage id="contact.subtitle" defaultMessage="contacto" />
+        <FormattedMessage
+          id="contact.subtitle"
+          defaultMessage="Let's Stay In Touch"
+        />
       </h5>
       <h1>
         {" "}
-        <FormattedMessage id="contact.title" defaultMessage="contactame" />
+        <FormattedMessage id="contact.title" defaultMessage="Contact Me" />
       </h1>
 
       <form
@@ -49,7 +52,7 @@ const Form = () => {
       >
         <label htmlFor="name">
           {" "}
-          <FormattedMessage id="contact.one" defaultMessage="nombre" />
+          <FormattedMessage id="contact.one" defaultMessage="Name" />
         </label>
         <input
           id="name"
@@ -60,7 +63,7 @@ const Form = () => {
         />
 
         <label htmlFor="email">
-          <FormattedMessage id="contact.two" defaultMessage="correo" />
+          <FormattedMessage id="contact.two" defaultMessage="Email" />
         </label>
         <input
           id="email"
@@ -71,7 +74,7 @@ const Form = () => {
         />
 
         <label htmlFor="message">
-          <FormattedMessage id="contact.three" defaultMessage="mensaje" />
+          <FormattedMessage id="contact.three" defaultMessage="Message" />
         </label>
         <textarea
           maxLength="500"
@@ -82,7 +85,7 @@ const Form = () => {
         />
 
         <button type="submit">
-          <FormattedMessage id="contact.button" defaultMessage="enviar" />
+          <FormattedMessage id="contact.button" defaultMessage="Submit" />
         </button>
       </form>
     </section>
