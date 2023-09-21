@@ -32,7 +32,7 @@ const Navbar = () => {
               offset={50}
               duration={1500}
             >
-              <FormattedMessage id="nav.aboutme" defaultMessage="Sobre Mi" />
+              <FormattedMessage id="nav.aboutme" defaultMessage="About Me" />
             </Link>
             {/* <a href="#about">About Me</a> */}
           </li>
@@ -44,7 +44,7 @@ const Navbar = () => {
               offset={100}
               duration={1500}
             >
-              <FormattedMessage id="nav.projects" defaultMessage="Proyectos" />
+              <FormattedMessage id="nav.projects" defaultMessage="Projects" />
             </Link>
             {/* <a href="#projects">Projects</a> */}
           </li>
@@ -56,7 +56,7 @@ const Navbar = () => {
               offset={50}
               duration={1500}
             >
-              <FormattedMessage id="nav.skills" defaultMessage="Habilidades " />
+              <FormattedMessage id="nav.skills" defaultMessage="Skills" />
             </Link>
             {/* <a href="#skills">Tech Skills</a> */}
           </li>
@@ -68,7 +68,7 @@ const Navbar = () => {
               offset={50}
               duration={2000}
             >
-              <FormattedMessage id="nav.contact" defaultMessage="Contactame" />
+              <FormattedMessage id="nav.contact" defaultMessage="Contact Me" />
             </Link>
             {/* <a href="#contact">Contact Me</a> */}
           </li>
