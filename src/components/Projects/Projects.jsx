@@ -10,11 +10,11 @@ const Projects = () => {
       <h5>
         <FormattedMessage
           id="projects.subtitle"
-          defaultMessage="Explora mis recientes"
+          defaultMessage="Browse My Recent"
         />
       </h5>
       <h1>
-        <FormattedMessage id="projects.title" defaultMessage="title" />
+        <FormattedMessage id="projects.title" defaultMessage="Projects" />
       </h1>
 
       <div className={style.projectsCards}>
@@ -26,13 +26,13 @@ const Projects = () => {
               <p>
                 <FormattedMessage
                   id="projects.one.info"
-                  defaultMessage="info proyecto"
+                  defaultMessage="Online platform that facilitates the booking of temporary accommodation, whether in houses, apartments, rooms or holiday properties."
                 />
               </p>
               <p className={style.cardP}>
                 <FormattedMessage
                   id="projects.one.tech"
-                  defaultMessage="info proyecto"
+                  defaultMessage="Tech used: HTML, CSS, JS, React, Material UI, Axios, NodeJs,Firebase, Firestore, and others."
                 />
               </p>
             </div>
@@ -48,13 +48,13 @@ const Projects = () => {
               <p>
                 <FormattedMessage
                   id="projects.two.info"
-                  defaultMessage="info proyecto"
+                  defaultMessage="This project is a country data API client. It allows users to search for countries by ID, filter them by population and alphabet, etc"
                 />
               </p>
               <p className={style.cardP}>
                 <FormattedMessage
                   id="projects.two.tech"
-                  defaultMessage="info proyecto"
+                  defaultMessage="Tech used: HTML, CSS, JS, React, Redux, ExpressJs, NodeJs, Sequelize, Morgan and others."
                 />
               </p>
             </div>
@@ -70,13 +70,13 @@ const Projects = () => {
               <p>
                 <FormattedMessage
                   id="projects.three.info"
-                  defaultMessage="info proyecto"
+                  defaultMessage="This project is a Rick and Morty API client. It allows users to search for characters by their ID, save them to favorites, and perform other actions."
                 />
               </p>
               <p className={style.cardP}>
                 <FormattedMessage
                   id="projects.three.tech"
-                  defaultMessage="info proyecto"
+                  defaultMessage="Tech used: HTML, CSS, React, Redux, ExpressJs, NodeJs, Morgan, Nodemon, Sequelize, PostgreSQL."
                 />
               </p>
             </div>
