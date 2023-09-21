@@ -15,10 +15,10 @@ const Skills = () => {
   return (
     <section id="skills" className={style.containerSkills}>
       <h5>
-        <FormattedMessage id="skills.subtitle" defaultMessage="conoceme" />
+        <FormattedMessage id="skills.subtitle" defaultMessage="Know My" />
       </h5>
       <h1>
-        <FormattedMessage id="skills.title" defaultMessage="habilidades" />
+        <FormattedMessage id="skills.title" defaultMessage="Skills" />
       </h1>
       <div className={style.skills}>
         <div className={style.cardSkills}>
@@ -57,7 +57,7 @@ const Skills = () => {
               alt="others"
             />
             <h3>
-              <FormattedMessage id="skills.other" defaultMessage="otros" />
+              <FormattedMessage id="skills.other" defaultMessage="Others" />
             </h3>
           </div>
           {other.map((item) => (
