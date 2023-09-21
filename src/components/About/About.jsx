@@ -9,11 +9,11 @@ const About = () => {
     <section className={style.containerAbout} id="/">
       <div className={style.infoAbout}>
         <h2>
-          <FormattedMessage id="about.title" defaultMessage="Hola" />
+          <FormattedMessage id="about.title" defaultMessage="Hi" />
           <span>
             <FormattedMessage id="about.span" defaultMessage="!" />
           </span>{" "}
-          <FormattedMessage id="about.secondpart" defaultMessage="Soy" />
+          <FormattedMessage id="about.secondpart" defaultMessage="I'm" />
           {/* Hi<span>!</span> I'm */}
         </h2>
         <h1>Gulliano Jaimes</h1>
