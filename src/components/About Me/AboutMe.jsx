@@ -6,10 +6,13 @@ const AboutMe = () => {
   return (
     <section id="about" className={style.containerAboutMe}>
       <h5>
-        <FormattedMessage id="aboutme.subtitle" defaultMessage="Conoce más" />
+        <FormattedMessage
+          id="aboutme.subtitle"
+          defaultMessage="Get To Know More"
+        />
       </h5>
       <h1>
-        <FormattedMessage id="aboutme.title" defaultMessage="Sobre Mi" />
+        <FormattedMessage id="aboutme.title" defaultMessage="About Me" />
       </h1>
       <section className={style.aboutMeInfo}>
         <div className={style.aboutMeSection}>
@@ -20,19 +23,19 @@ const AboutMe = () => {
           <h2>
             <FormattedMessage
               id="aboutme.title.experience"
-              defaultMessage="Expereciencia"
+              defaultMessage="Experience"
             />
           </h2>
           <p>
             <FormattedMessage
               id="aboutme.experience"
-              defaultMessage="+10 meses"
+              defaultMessage="+10 months Frontend developer"
             />
           </p>
           <p>
             <FormattedMessage
               id="aboutme.experience.two"
-              defaultMessage="+4 meses"
+              defaultMessage="+4 months Fullstack developer"
             />
           </p>
         </div>
@@ -44,19 +47,19 @@ const AboutMe = () => {
           <h2>
             <FormattedMessage
               id="aboutme.title.education"
-              defaultMessage="Sobre Mi"
+              defaultMessage="Education"
             />
           </h2>
           <p>
             <FormattedMessage
               id="aboutme.education"
-              defaultMessage="Sobre Mi"
+              defaultMessage="SoyHenry Bootcamp (FullStack Developer)"
             />
           </p>
           <p>
             <FormattedMessage
               id="aboutme.education.two"
-              defaultMessage="Sobre Mi"
+              defaultMessage="Platzi (Frontend Developer)"
             />
           </p>
         </div>
@@ -65,14 +68,14 @@ const AboutMe = () => {
         <p>
           <FormattedMessage
             id="aboutme.information"
-            defaultMessage="texto-uno"
+            defaultMessage="texI am an enthusiastic Fullstack developer with a passion for technology and software development. I am currently focused on acquiring skills and knowledge in both front-end and back-end development, focusing more on front-end development with the aim of creating efficient and attractive web applications"
           />
         </p>
         <br />
         <p>
           <FormattedMessage
             id="aboutme.information.two"
-            defaultMessage="texto-dos"
+            defaultMessage="Although I still have no professional experience in the field, my youth and enthusiasm allow me to keep abreast of the latest trends and technologies in the field of web development. In addition, my academic background in Fullstack Development has provided me with a solid foundation to tackle projects and learn quickly and effectively."
           />
         </p>
       </section>
