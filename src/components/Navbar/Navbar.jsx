@@ -72,19 +72,22 @@ const Navbar = () => {
             </Link>
             {/* <a href="#contact">Contact Me</a> */}
           </li>
+          <button onClick={() => idioma.langChange("es-ES")}>
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/330/330557.png"
+              alt=""
+            />
+          </button>
+          <button
+            className={style.en}
+            onClick={() => idioma.langChange("en-US")}
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/330/330425.png"
+              alt=""
+            />
+          </button>
         </ul>
-        <button onClick={() => idioma.langChange("es-ES")}>
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/330/330557.png"
-            alt=""
-          />
-        </button>
-        <button className={style.en} onClick={() => idioma.langChange("en-US")}>
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/330/330425.png"
-            alt=""
-          />
-        </button>
       </div>
     </nav>
   );
