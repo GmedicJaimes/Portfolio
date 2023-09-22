@@ -68,7 +68,7 @@ const AboutMe = () => {
         <p>
           <FormattedMessage
             id="aboutme.information"
-            defaultMessage="texI am an enthusiastic Fullstack developer with a passion for technology and software development. I am currently focused on acquiring skills and knowledge in both front-end and back-end development, focusing more on front-end development with the aim of creating efficient and attractive web applications"
+            defaultMessage="I am an enthusiastic Fullstack developer with a passion for technology and software development. I am currently focused on acquiring skills and knowledge in both front-end and back-end development, focusing more on front-end development with the aim of creating efficient and attractive web applications"
           />
         </p>
         <br />
