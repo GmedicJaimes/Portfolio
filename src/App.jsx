@@ -19,9 +19,10 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Routes>
+      <About />
+      {/* <Routes>
         <Route path="/" element={<About />} />
-      </Routes>
+      </Routes> */}
       <AboutMe />
       <Projects />
       <Skills />
