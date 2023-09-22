@@ -9,13 +9,10 @@ import Form from "./components/Form/Form";
 import React, { useContext } from "react";
 
 import { langContext } from "./context/langContext";
-import es from "../src/languages/es-ES.json";
-import en from "../src/languages/en-US.json";
 
 function App() {
   const idioma = useContext(langContext);
 
-  console.log(idioma);
   return (
     <div>
       <Navbar />

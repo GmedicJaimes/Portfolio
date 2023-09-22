@@ -19,6 +19,7 @@ const AboutMe = () => {
           <img
             src="https://cdn-icons-png.flaticon.com/128/8207/8207096.png"
             alt=""
+            loading="lazy"
           />
           <h2>
             <FormattedMessage
@@ -43,6 +44,7 @@ const AboutMe = () => {
           <img
             src="https://cdn-icons-png.flaticon.com/128/942/942806.png"
             alt=""
+            loading="lazy"
           />
           <h2>
             <FormattedMessage

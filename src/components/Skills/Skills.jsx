@@ -26,10 +26,10 @@ const Skills = () => {
             <img
               src="https://cdn-icons-png.flaticon.com/128/732/732050.png"
               alt="frontend"
+              loading="lazy"
             />
             <h3>Frontend</h3>
           </div>
-          {console.log(frontend)}
           {frontend.map((item) => (
             <ul key={item}>
               <li>{item}</li>
@@ -41,6 +41,7 @@ const Skills = () => {
             <img
               src="https://cdn-icons-png.flaticon.com/128/8016/8016946.png"
               alt="backend"
+              loading="lazy"
             />
             <h3>Backend</h3>
           </div>
@@ -55,6 +56,7 @@ const Skills = () => {
             <img
               src="https://cdn-icons-png.flaticon.com/128/100/100852.png"
               alt="others"
+              loading="lazy"
             />
             <h3>
               <FormattedMessage id="skills.other" defaultMessage="Others" />

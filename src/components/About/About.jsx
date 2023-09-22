@@ -30,25 +30,29 @@ const About = () => {
             <img
               src="https://cdn-icons-png.flaticon.com/128/61/61109.png"
               alt=""
+              loading="lazy"
             />
           </a>
           <a href="https://github.com/GmedicJaimes" target="_blank">
             <img
               src="https://cdn-icons-png.flaticon.com/128/733/733609.png"
               alt=""
+              loading="lazy"
             />
           </a>
           <a href={CV} download={""}>
             <img
               src="https://cdn-icons-png.flaticon.com/128/909/909263.png"
               alt=""
+              loading="lazy"
             />
           </a>
         </div>
       </div>
       <div className={style.imageAbout}>
         <div>
-          <img src={img} alt="" />
+          {/* <img src={img} alt="" loading="lazy" /> */}
+          <img src="https://i.ibb.co/5R7BQFX/foto3.png" alt="" />
         </div>
       </div>
     </section>

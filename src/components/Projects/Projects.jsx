@@ -5,6 +5,9 @@ import img3 from "../../assets/img/RM.jpg";
 import { FormattedMessage } from "react-intl";
 
 const Projects = () => {
+  //   <a href="https://ibb.co/r5TYCBv"><img src="https://i.ibb.co/gtHN506/DL.jpg" alt="DL" border="0"></a>
+  // <a href="https://ibb.co/5sj0HYq"><img src="https://i.ibb.co/h2d6zXp/ND.jpg" alt="ND" border="0"></a>
+  // <a href="https://ibb.co/0J6tNzV"><img src="https://i.ibb.co/Lpc5wsh/RM.jpg" alt="RM" border="0"></a>
   return (
     <section id="projects" className={style.containerProjects}>
       <h5>
@@ -20,7 +23,8 @@ const Projects = () => {
       <div className={style.projectsCards}>
         <a href="https://dreamlodgeprueba.web.app/" target="_blank">
           <div className={style.cardProjects}>
-            <img src={img1} alt="project 1" />
+            {/* <img src={img1} alt="project 1" loading="lazy" /> */}
+            <img src="https://i.ibb.co/gtHN506/DL.jpg" alt="" />
             <div>
               <h3>DreamLodge</h3>
               <p>
@@ -41,7 +45,8 @@ const Projects = () => {
 
         <a href="https://pi-nacion-data.vercel.app/" target="_blank">
           <div className={style.cardProjects}>
-            <img src={img2} alt="project 2" />
+            {/* <img src={img2} alt="project 2" loading="lazy" /> */}
+            <img src="https://i.ibb.co/h2d6zXp/ND.jpg" alt="" />
 
             <div>
               <h3>NationData</h3>
@@ -63,7 +68,8 @@ const Projects = () => {
 
         <a href="https://rick-and-morty-rust-seven.vercel.app/" target="_blank">
           <div className={style.cardProjects}>
-            <img src={img3} alt="project 3" />
+            {/* <img src={img3} alt="project 3" loading="lazy" /> */}
+            <img src="https://i.ibb.co/Lpc5wsh/RM.jpg" alt="" />
 
             <div>
               <h3>Rick & Morty</h3>
