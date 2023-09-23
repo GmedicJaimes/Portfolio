@@ -113,23 +113,6 @@
   transition: all ease-in-out 0.2s;
 }
 
-@media screen and (max-width: 470px) {
-  .logoNav {
-    padding-left: 10px;
-    transition: all ease-in-out 0.2s;
-  }
-
-  .logoNav img {
-    width: 35px;
-    height: 35px;
-  }
-
-  .logoNav h1 {
-    font-size: 1.12em;
-    transition: all ease-in-out 0.5s;
-  }
-}
-
 @media screen and (max-width: 940px) {
   .nav__hamburguer {
     display: flex;
@@ -202,5 +185,43 @@
 
   .nav__hamburguer.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.7rem, -0.1875rem);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .logoNav {
+    padding-left: 10px;
+    transition: all ease-in-out 0.2s;
+  }
+
+  .logoNav img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .logoNav h1 {
+    font-size: 1.12em;
+    transition: all ease-in-out 0.5s;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .logoNav {
+    padding-left: 0;
+    transition: all ease-in-out 0.2s;
+  }
+
+  .logoNav img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .logoNav h1 {
+    font-size: 1.12em;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .infoNav ul {
+    padding: 1.5rem 0 0.6rem;
   }
 }

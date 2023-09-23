@@ -52,14 +52,7 @@ const About = () => {
       </div>
       <div className={style.imageAbout}>
         <figure>
-          {/* <img src={img} alt="" loading="lazy" /> */}
           <img src="https://i.ibb.co/5R7BQFX/foto3.png" alt="" />
-          {/* <LazyLoadComponent
-            src={img}
-            alt="foto"
-            width="100px"
-            className={style.lazy}
-          /> */}
         </figure>
       </div>
     </section>
