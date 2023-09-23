@@ -189,6 +189,14 @@
 }
 
 @media screen and (max-width: 470px) {
+  .containerNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+  }
+
   .logoNav {
     padding-left: 10px;
     transition: all ease-in-out 0.2s;
