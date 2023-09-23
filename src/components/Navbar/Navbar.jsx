@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import AboutMe from "../About Me/AboutMe";
-import style from "../Navbar/Navbar.module.css";
+import "../Navbar/Navbar.css";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 import { FormattedMessage } from "react-intl";
@@ -9,9 +9,39 @@ import { langContext } from "../../context/langContext";
 const Navbar = () => {
   const idioma = useContext(langContext);
 
+  const [navActive, setNavActive] = useState(false);
+
+  const toggleNav = () => {
+    setNavActive(!navActive);
+  };
+
+  const closeMenu = () => {
+    setNavActive(false);
+  };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 400) {
+        closeMenu;
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (window.innerWidth <= 1000) {
+      closeMenu;
+    }
+  }, []);
+
   return (
-    <nav className={style.containerNav}>
-      <div className={style.logoNav}>
+    <nav className="containerNav">
+      <div className="logoNav">
         <img
           src="https://cdn-icons-png.flaticon.com/128/5450/5450925.png"
           alt=""
@@ -25,7 +55,7 @@ const Navbar = () => {
         </a> */}
       </div>
 
-      <div className={style.infoNav}>
+      <div className="infoNav">
         <ul>
           <li>
             <Link
@@ -82,10 +112,7 @@ const Navbar = () => {
               loading="lazy"
             />
           </button>
-          <button
-            className={style.en}
-            onClick={() => idioma.langChange("en-US")}
-          >
+          <button className="en" onClick={() => idioma.langChange("en-US")}>
             <img
               src="https://cdn-icons-png.flaticon.com/128/330/330425.png"
               alt=""

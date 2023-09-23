@@ -3,6 +3,7 @@ import style from "../About/About.module.css";
 import CV from "../../Gulliano Jaimes Fullstack Dev - CV.pdf";
 
 import { FormattedMessage } from "react-intl";
+import { LazyLoadComponent } from "react-lazy-load-image-component";
 
 const About = () => {
   return (
@@ -50,10 +51,16 @@ const About = () => {
         </div>
       </div>
       <div className={style.imageAbout}>
-        <div>
+        <figure>
           {/* <img src={img} alt="" loading="lazy" /> */}
           <img src="https://i.ibb.co/5R7BQFX/foto3.png" alt="" />
-        </div>
+          {/* <LazyLoadComponent
+            src={img}
+            alt="foto"
+            width="100px"
+            className={style.lazy}
+          /> */}
+        </figure>
       </div>
     </section>
   );

@@ -78,7 +78,7 @@
   align-items: center;
 }
 
-.imageAbout div {
+.imageAbout figure {
   display: flex;
   justify-content: center;
   align-items: center;
