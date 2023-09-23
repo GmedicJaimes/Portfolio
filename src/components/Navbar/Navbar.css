@@ -1,22 +1,29 @@
 .containerNav {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   font-size: 1.2em;
-  padding: 10px;
   font-family: "Lexend Deca";
+  padding: 10px;
   background-color: #000814;
+  /* background-color: #ffc300; */
   color: white;
   border-bottom: 1px solid #ffc300;
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+}
+
+.containerNavSections {
+  display: flex;
 }
 
 .logoNav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 .logoNav img {
@@ -35,9 +42,6 @@
   font-weight: 500;
   font-size: 1.5em;
 }
-.containerNav nav {
-  display: flex;
-}
 
 .infoNav {
   display: flex;
@@ -45,33 +49,15 @@
   align-items: center;
 }
 
-.infoNav button {
-  background-color: transparent;
-  border: none;
-  width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.en {
-  margin-right: 30px;
-}
-
-.infoNav img {
-  width: 30px;
-  height: 30px;
-}
-
 .infoNav ul {
   display: flex;
+  align-items: center;
   padding-right: 20px;
 }
 
 .infoNav ul li {
   list-style: none;
-  padding-right: 30px;
+  padding-right: 20px;
   font-weight: 400;
 }
 
@@ -83,4 +69,138 @@
 .infoNav a:hover {
   color: #ffc300;
   cursor: pointer;
+}
+
+.infoButton {
+  display: flex;
+  /* background-color: aquamarine; */
+  margin-right: 20px;
+}
+
+.infoButton button {
+  background-color: transparent;
+  border: none;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.infoButton button img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav__hamburguer {
+  display: none;
+  width: 1.875rem;
+  height: 1.875rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+
+.nav_line {
+  display: block;
+  height: 0.188rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.625rem;
+  transition: all ease-in-out 0.2s;
+}
+
+@media screen and (max-width: 470px) {
+  .logoNav {
+    padding-left: 10px;
+    transition: all ease-in-out 0.2s;
+  }
+
+  .logoNav img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .logoNav h1 {
+    font-size: 1.12em;
+    transition: all ease-in-out 0.5s;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .nav__hamburguer {
+    display: flex;
+    z-index: 200;
+    cursor: pointer;
+  }
+
+  .infoNav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infoNav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000814;
+    border-bottom: 1px solid #ffc300;
+    top: -20rem;
+    left: 0;
+    width: 100%;
+    transition: all ease-in-out 0.4s;
+  }
+
+  .infoNav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 3rem 0 0.6rem;
+    z-index: -200;
+  }
+
+  .infoNav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .infoNav ul li a {
+    padding: 0.5rem;
+  }
+
+  .infoNav {
+    z-index: -1000;
+  }
+
+  .infoNav.active {
+    top: 30px;
+  }
+
+  .infoButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ffc300; */
+    padding-right: 40px;
+  }
+
+  .nav__hamburguer.active :nth-child(1) {
+    transform: rotate(42deg) translate(0.7rem, 0.1875rem);
+  }
+
+  .nav__hamburguer.active :nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav__hamburguer.active :nth-child(3) {
+    transform: rotate(-45deg) translate(0.7rem, -0.1875rem);
+  }
 }
