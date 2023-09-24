@@ -83,6 +83,7 @@
 @media screen and (min-width: 300px) and (max-width: 640px) {
   .containerSkills {
     height: 100vh;
+    margin-top: 10em;
     padding-top: 40%;
     font-family: "Lexend Deca";
   }
