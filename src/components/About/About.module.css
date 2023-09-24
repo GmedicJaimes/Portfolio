@@ -97,10 +97,10 @@
   border-radius: 5%;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (min-width: 740px) and (max-width: 940px) {
   .containerAbout {
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 8%;
   }
 
   .infoAbout {
@@ -121,13 +121,13 @@
   }
 
   .infoAbout h2 {
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 600;
     color: white;
   }
 
   .infoAbout h3 {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 
   .buttonsAbout {
@@ -147,17 +147,17 @@
 
   .imageAbout figure {
     width: 100%;
-    height: 210px;
+    height: 300px;
   }
 
   .imageAbout img {
     width: 96%;
-    height: 200px;
+    height: 290px;
     margin: 0;
   }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (min-width: 376px) and (max-width: 466px) {
   .containerAbout {
     display: flex;
     flex-direction: column;
@@ -177,7 +177,7 @@
   }
 
   .infoAbout h1 {
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-weight: 600;
     color: white;
   }
@@ -189,7 +189,7 @@
   }
 
   .infoAbout h3 {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   .buttonsAbout {
@@ -221,69 +221,6 @@
 }
 
 @media screen and (max-width: 375px) {
-  .containerAbout {
-    display: flex;
-    flex-direction: column;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .infoAbout {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  .infoAbout h1 {
-    font-size: 2em;
-    font-weight: 600;
-    color: white;
-  }
-
-  .infoAbout h2 {
-    font-size: 1.8em;
-    font-weight: 600;
-    color: white;
-  }
-
-  .infoAbout h3 {
-    font-size: 1.1em;
-  }
-
-  .buttonsAbout {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    padding-top: 20px;
-    width: auto;
-  }
-
-  .imageAbout {
-    width: 50%;
-    height: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .imageAbout figure {
-    width: 100%;
-    height: 210px;
-  }
-
-  .imageAbout img {
-    width: 96%;
-    height: 200px;
-    margin: 0;
-  }
-}
-
-@media screen and (max-width: 192px) {
   .containerAbout {
     display: flex;
     flex-direction: column;

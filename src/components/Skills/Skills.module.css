@@ -79,3 +79,20 @@
   font-weight: 300;
   padding-bottom: 2px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 640px) {
+  .containerSkills {
+    height: 100vh;
+    padding-top: 40%;
+    font-family: "Lexend Deca";
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+}
