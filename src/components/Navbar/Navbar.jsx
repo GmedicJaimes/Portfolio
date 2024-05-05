@@ -42,14 +42,8 @@ const Navbar = () => {
   return (
     <nav className={`containerNav ${navActive ? "active" : ""}`}>
       <div className="logoNav">
-        <img
-          src="https://cdn-icons-png.flaticon.com/128/5450/5450925.png"
-          alt=""
-          loading="lazy"
-        />
-        <Link to="/" spy={true} smooth={true} offset={50} duration={1500}>
-          <h1>Gulliano Jaimes</h1>
-        </Link>
+        {/* <img src="./assets/foto3.png" alt="" /> */}
+        <h1>Gulliano Jaimes</h1>
       </div>
 
       <a
@@ -75,7 +69,7 @@ const Navbar = () => {
                 offset={50}
                 duration={1500}
               >
-                <FormattedMessage id="nav.aboutme" defaultMessage="About Me" />
+                Sobre mi
               </Link>
               {/* <a href="#about">About Me</a> */}
             </li>
@@ -90,7 +84,7 @@ const Navbar = () => {
                 offset={100}
                 duration={1500}
               >
-                <FormattedMessage id="nav.projects" defaultMessage="Projects" />
+                Proyectos
               </Link>
               {/* <a href="#projects">Projects</a> */}
             </li>
@@ -105,11 +99,11 @@ const Navbar = () => {
                 offset={50}
                 duration={1500}
               >
-                <FormattedMessage id="nav.skills" defaultMessage="Skills" />
+                Habilidades
               </Link>
               {/* <a href="#skills">Tech Skills</a> */}
             </li>
-            <li>
+            {/* <li>
               <Link
                 onClick={closeMenu}
                 activeClass="navbar--active-content"
@@ -125,11 +119,10 @@ const Navbar = () => {
                   defaultMessage="Contact Me"
                 />
               </Link>
-              {/* <a href="#contact">Contact Me</a> */}
-            </li>
+            </li> */}
           </ul>
         </div>
-        <div className="infoButton">
+        {/* <div className="infoButton">
           <button onClick={() => idioma.langChange("es-ES")}>
             <img
               src="https://cdn-icons-png.flaticon.com/128/330/330557.png"
@@ -144,7 +137,7 @@ const Navbar = () => {
               loading="lazy"
             />
           </button>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

@@ -1,33 +1,34 @@
 .containerNav {
   display: flex;
   justify-content: space-between;
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: "Lexend Deca";
-  padding: 10px;
-  background-color: #000814;
-  /* background-color: #ffc300; */
   color: white;
-  border-bottom: 1px solid #ffc300;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 70px;
+
+  /* filter: blur(1px); */
+}
+
+.containerNav {
+  background: #1f20207d;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
 }
 
 .containerNavSections {
   display: flex;
+  margin-right: 20%;
 }
 
 .logoNav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 30px;
-}
-
-.logoNav img {
-  width: 50px;
+  margin-left: 20%;
 }
 
 .logoNav a {
@@ -39,8 +40,8 @@
 
 .logoNav h1 {
   padding-left: 5px;
-  font-weight: 500;
-  font-size: 1.5em;
+  font-weight: 300;
+  font-size: 1em;
 }
 
 .infoNav {
@@ -52,23 +53,17 @@
 .infoNav ul {
   display: flex;
   align-items: center;
-  padding-right: 20px;
 }
 
 .infoNav ul li {
   list-style: none;
-  padding-right: 20px;
-  font-weight: 400;
+  padding-left: 20px;
+  font-weight: 300;
 }
 
 .infoNav a {
   text-decoration: none;
   color: white;
-}
-
-.infoNav a:hover {
-  color: #ffc300;
-  cursor: pointer;
 }
 
 .infoButton {

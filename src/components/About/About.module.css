@@ -7,6 +7,12 @@
   margin-left: 20%;
   margin-right: 20%;
   font-family: "Lexend Deca";
+  background: rgb(1, 50, 92);
+  background: radial-gradient(
+    circle,
+    rgba(1, 50, 92, 1) 6%,
+    rgba(0, 24, 40, 1) 91%
+  );
 }
 
 .infoAbout {
@@ -157,7 +163,7 @@
   }
 }
 
-@media screen and (min-width: 376px) and (max-width: 466px) {
+@media screen and (min-width: 376px) and (max-width: 739px) {
   .containerAbout {
     display: flex;
     flex-direction: column;
