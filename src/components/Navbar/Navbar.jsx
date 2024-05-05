@@ -42,8 +42,19 @@ const Navbar = () => {
   return (
     <nav className={`containerNav ${navActive ? "active" : ""}`}>
       <div className="logoNav">
-        {/* <img src="./assets/foto3.png" alt="" /> */}
-        <h1>Gulliano Jaimes</h1>
+        <Link
+          onClick={closeMenu}
+          activeClass="navbar--active-content"
+          className="navbarLogo"
+          to="/"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={1500}
+        >
+          <img src="./src/assets/foto3.png" alt="" />
+          <h1>Gulliano Jaimes</h1>
+        </Link>
       </div>
 
       <a
@@ -71,7 +82,6 @@ const Navbar = () => {
               >
                 Sobre mi
               </Link>
-              {/* <a href="#about">About Me</a> */}
             </li>
             <li>
               <Link
@@ -86,7 +96,6 @@ const Navbar = () => {
               >
                 Proyectos
               </Link>
-              {/* <a href="#projects">Projects</a> */}
             </li>
             <li>
               <Link
@@ -101,9 +110,8 @@ const Navbar = () => {
               >
                 Habilidades
               </Link>
-              {/* <a href="#skills">Tech Skills</a> */}
             </li>
-            {/* <li>
+            <li>
               <Link
                 onClick={closeMenu}
                 activeClass="navbar--active-content"
@@ -119,7 +127,7 @@ const Navbar = () => {
                   defaultMessage="Contact Me"
                 />
               </Link>
-            </li> */}
+            </li>
           </ul>
         </div>
         {/* <div className="infoButton">
