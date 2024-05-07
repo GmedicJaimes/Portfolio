@@ -17,9 +17,6 @@ function App() {
     <div>
       <Navbar />
       <About />
-      {/* <Routes>
-        <Route path="/" element={<About />} />
-      </Routes> */}
       <AboutMe />
       <Projects />
       <Skills />
