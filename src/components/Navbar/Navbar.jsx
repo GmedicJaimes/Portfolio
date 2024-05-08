@@ -122,30 +122,11 @@ const Navbar = () => {
                 offset={50}
                 duration={2000}
               >
-                <FormattedMessage
-                  id="nav.contact"
-                  defaultMessage="Contact Me"
-                />
+                Contactame
               </Link>
             </li>
           </ul>
         </div>
-        {/* <div className="infoButton">
-          <button onClick={() => idioma.langChange("es-ES")}>
-            <img
-              src="https://cdn-icons-png.flaticon.com/128/330/330557.png"
-              alt=""
-              loading="lazy"
-            />
-          </button>
-          <button className="en" onClick={() => idioma.langChange("en-US")}>
-            <img
-              src="https://cdn-icons-png.flaticon.com/128/330/330425.png"
-              alt=""
-              loading="lazy"
-            />
-          </button>
-        </div> */}
       </div>
     </nav>
   );

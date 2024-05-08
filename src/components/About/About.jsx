@@ -3,25 +3,26 @@ import style from "../About/About.module.css";
 import CV from "../../Gulliano Jaimes Fullstack Dev - CV.pdf";
 
 import { FormattedMessage } from "react-intl";
-import { LazyLoadComponent } from "react-lazy-load-image-component";
 
 const About = () => {
   return (
     <section className={style.containerAbout} id="/">
       <div className={style.infoAbout}>
-        <h2>
-          <FormattedMessage id="about.title" defaultMessage="Hi" />
-          <span>
-            <FormattedMessage id="about.span" defaultMessage="!" />
-          </span>{" "}
-          <FormattedMessage id="about.secondpart" defaultMessage="I'm" />
-          {/* Hi<span>!</span> I'm */}
-        </h2>
-        <h1>Gulliano Jaimes</h1>
-        <h3>Fullstack | Frontend Developer</h3>
-        {/* <h3>
-          <FormattedMessage id="about.dev" defaultMessage="Fullstack" />
-        </h3> */}
+        <button>
+          <a
+            href="https://www.linkedin.com/in/gulliano-jaimes/"
+            target="_blank"
+          >
+            Disponible para trabajar
+          </a>
+        </button>
+
+        <h1>
+          Hola
+          <span>,</span> soy Gulliano<span>!</span>
+        </h1>
+        <h3>Desarrollador Software</h3>
+        <p>holaaa</p>
 
         <div className={style.buttonsAbout}>
           <a
@@ -49,11 +50,6 @@ const About = () => {
             />
           </a>
         </div>
-      </div>
-      <div className={style.imageAbout}>
-        <figure>
-          <img src="https://i.ibb.co/5R7BQFX/foto3.png" alt="" />
-        </figure>
       </div>
     </section>
   );
