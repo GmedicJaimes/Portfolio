@@ -16,13 +16,26 @@ const About = () => {
             Disponible para trabajar
           </a>
         </button>
-
-        <h1>
-          Hola
-          <span>,</span> soy Gulliano<span>!</span>
-        </h1>
-        <h3>Desarrollador Software</h3>
-        <p>holaaa</p>
+        <div>
+          <h1>
+            Hola
+            <span>,</span> soy Gulliano<span>!</span>
+          </h1>
+          <h3>Desarrollador de Software</h3>
+        </div>
+        <p>
+          +1 año de experiencia. Desarrollador de Software{" "}
+          <span>
+            especializado en el mantenimiento de aplicaciones y en la
+            construcion de aplicaciones web dinamicas y efecientes
+          </span>
+          , apasionado por la tecnologia y la innovacion. Administrador de
+          empresas con enfoque empresarial con excelentes
+          <span>
+            conocimientos en gestion de proyectos, planificacion de procesos y
+            analisis de datos para la toma de decisiones
+          </span>{" "}
+        </p>
 
         <div className={style.buttonsAbout}>
           <a
