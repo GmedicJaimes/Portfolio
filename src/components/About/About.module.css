@@ -47,14 +47,20 @@
 }
 
 .infoAbout p {
+  font-size: 1.1em;
   margin-top: 20px;
-  width: 75%;
-  color: #ffffffb0;
+  width: 65%;
+  color: #ffffffe1;
   font-weight: 300;
 }
 
 .infoAbout p span {
   color: #ffffff;
+  font-weight: 500;
+}
+
+.infoAbout .span {
+  color: #9ef01ad8;
   font-weight: 500;
 }
 

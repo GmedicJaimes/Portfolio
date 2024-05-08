@@ -24,17 +24,16 @@ const About = () => {
           <h3>Desarrollador de Software</h3>
         </div>
         <p>
-          +1 año de experiencia. Desarrollador de Software{" "}
-          <span>
-            especializado en el mantenimiento de aplicaciones y en la
-            construcion de aplicaciones web dinamicas y efecientes
-          </span>
-          , apasionado por la tecnologia y la innovacion. Administrador de
-          empresas con enfoque empresarial con excelentes
-          <span>
-            conocimientos en gestion de proyectos, planificacion de procesos y
-            analisis de datos para la toma de decisiones
+          +1 año de experiencia.{" "}
+          <span className={style.span}>
+            Desarrollador de Software y Administrador de Empresas.
           </span>{" "}
+          <span>
+            Especializado en el mantenimiento y en la construcion de
+            aplicaciones web dinamicas y efecientes, apasionado por la
+            tecnologia y la innovacion.
+          </span>{" "}
+          apasionado por la tecnologia y la innovacion.{" "}
         </p>
 
         <div className={style.buttonsAbout}>
@@ -46,7 +45,7 @@ const About = () => {
               src="https://cdn-icons-png.flaticon.com/128/61/61109.png"
               alt=""
               loading="lazy"
-            />
+            />{" "}
           </a>
           <a href="https://github.com/GmedicJaimes" target="_blank">
             <img
