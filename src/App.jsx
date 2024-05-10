@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Form from "./components/Form/Form";
+import Experiencia from "./components/Experiencia/Experiencia";
 import React, { useContext } from "react";
 
 import { langContext } from "./context/langContext";
@@ -17,10 +18,11 @@ function App() {
     <div>
       <Navbar />
       <About />
-      <AboutMe />
+      <Experiencia />
       <Projects />
+      <AboutMe />
       <Skills />
-      <Form />
+      {/* <Form /> */}
     </div>
   );
 }
