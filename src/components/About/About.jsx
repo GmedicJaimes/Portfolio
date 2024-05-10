@@ -43,7 +43,7 @@ const About = () => {
                 alt=""
                 loading="lazy"
               />
-              linkedin
+              Linkedin
             </a>
           </button>
           <button>

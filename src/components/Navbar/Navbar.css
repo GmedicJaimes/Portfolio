@@ -14,9 +14,9 @@
 }
 
 .containerNav {
-  background: #1f20205b;
+  background: #0c11236c;
   -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(7px);
 }
 
 .containerNavSections {
@@ -58,6 +58,7 @@
 
 .infoNav {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -65,23 +66,24 @@
 .infoNav ul {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .infoNav ul li {
   list-style: none;
-
   font-weight: 300;
 }
 
 .infoNav a {
   text-decoration: none;
   color: white;
-  padding: 12px;
+  padding: 10px;
 }
 
 .infoNav a:hover {
-  /* border-bottom: 2px`` solid #fff; */
+  border-bottom: 2px solid #08ffc5;
   cursor: pointer;
+  /* transition: 2s; */
 }
 
 .infoButton {
