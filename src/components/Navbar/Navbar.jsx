@@ -80,6 +80,20 @@ const Navbar = () => {
                 offset={100}
                 duration={1500}
               >
+                Experiencia
+              </Link>
+            </li>
+            <li>
+              <Link
+                onClick={closeMenu}
+                activeClass="navbar--active-content"
+                className="navbar--content"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={100}
+                duration={1500}
+              >
                 Proyectos
               </Link>
             </li>
@@ -111,7 +125,7 @@ const Navbar = () => {
                 Skills
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 onClick={closeMenu}
                 activeClass="navbar--active-content"
@@ -124,7 +138,7 @@ const Navbar = () => {
               >
                 Contactame
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
