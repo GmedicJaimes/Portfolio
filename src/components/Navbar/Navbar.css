@@ -75,15 +75,35 @@
 }
 
 .infoNav a {
+  position: relative;
   text-decoration: none;
-  color: white;
-  padding: 10px;
+  color: #dddddd;
+  padding: 0px 3px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.infoNav a:after {
+  /* border-bottom: 2px solid #08ffc5;
+  cursor: pointer; */
+  /* transition: 2s; */
+  content: "";
+  position: absolute;
+  background-color: #08ffc5;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.4s;
 }
 
 .infoNav a:hover {
-  border-bottom: 2px solid #08ffc5;
+  color: #ffffff;
+}
+
+.infoNav a:hover:after {
+  width: 100%;
   cursor: pointer;
-  /* transition: 2s; */
 }
 
 .infoButton {

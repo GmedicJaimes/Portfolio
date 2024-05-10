@@ -74,20 +74,6 @@ const Navbar = () => {
                 onClick={closeMenu}
                 activeClass="navbar--active-content"
                 className="navbar--content"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={1500}
-              >
-                Sobre mi
-              </Link>
-            </li>
-            <li>
-              <Link
-                onClick={closeMenu}
-                activeClass="navbar--active-content"
-                className="navbar--content"
                 to="projects"
                 spy={true}
                 smooth={true}
@@ -102,13 +88,27 @@ const Navbar = () => {
                 onClick={closeMenu}
                 activeClass="navbar--active-content"
                 className="navbar--content"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={1500}
+              >
+                Sobre mi
+              </Link>
+            </li>
+            <li>
+              <Link
+                onClick={closeMenu}
+                activeClass="navbar--active-content"
+                className="navbar--content"
                 to="skills"
                 spy={true}
                 smooth={true}
                 offset={50}
                 duration={1500}
               >
-                Habilidades
+                Skills
               </Link>
             </li>
             <li>
