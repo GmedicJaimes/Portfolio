@@ -14,7 +14,7 @@
 }
 
 .containerNav {
-  background: #0c11236c;
+  background: #0c112386;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(7px);
 }
@@ -47,13 +47,12 @@
   text-decoration: none;
   color: white;
   cursor: pointer;
-  font-size: 0.85em;
+  font-size: 0.9em;
 }
 
 .logoNav h1 {
   padding-left: 5px;
   font-weight: 500;
-  font-size: 1.1em;
 }
 
 .infoNav {
@@ -71,7 +70,7 @@
 
 .infoNav ul li {
   list-style: none;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .infoNav a {
@@ -81,6 +80,7 @@
   padding: 0px 3px;
   margin-left: 20px;
   cursor: pointer;
+  font-size: 0.9em;
 }
 
 .infoNav a:after {
@@ -108,7 +108,6 @@
 
 .infoButton {
   display: flex;
-  /* background-color: aquamarine; */
   margin-right: 20px;
 }
 
