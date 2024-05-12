@@ -4,7 +4,7 @@
   margin-left: 20%;
   margin-right: 20%;
   font-family: "Lexend Deca";
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .containerExperiencia h1 {
@@ -13,17 +13,44 @@
   font-size: 30px;
 }
 
-.containerExperiencia .contentsExperiencia {
-  padding: 0px 30px;
-  border-left: 2px solid #ffffff52;
+.contentsExperiencia {
+  margin-left: 10px;
+  padding: 0px 15px;
+  border-left: 2px solid #08ffc55b;
 }
 
 .contentsExperiencia .box {
   position: relative;
   padding-left: 10px;
   margin-bottom: 10px;
-  border: 1px solid #eaeaea;
-  background-color: #fff;
+  /* border: 1px solid #eaeaea; */
   cursor: pointer;
   transition: all 0.4s;
+}
+
+.contentsExperiencia .box::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  right: calc(100% + 11px);
+  top: 0;
+  background-color: #08ffc5;
+  border: 1px solid #08ffc5;
+}
+
+.box {
+  display: flex;
+  gap: 10px;
+  background-color: #08ffc5;
+}
+
+.companyName {
+  width: 40%;
+  /* background-color: black; */
+}
+
+.descriptionCompany {
+  width: 60%;
 }
