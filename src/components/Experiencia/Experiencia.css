@@ -11,21 +11,19 @@
   color: #fff;
   font-weight: 500;
   font-size: 30px;
+  margin-bottom: 40px;
 }
 
 .contentsExperiencia {
   margin-left: 10px;
-  padding: 0px 15px;
+  padding: 0px 0px 0px 15px;
   border-left: 2px solid #08ffc55b;
 }
 
 .contentsExperiencia .box {
   position: relative;
-  padding-left: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   /* border: 1px solid #eaeaea; */
-  cursor: pointer;
-  transition: all 0.4s;
 }
 
 .contentsExperiencia .box::before {
@@ -34,7 +32,7 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  right: calc(100% + 11px);
+  right: calc(100% + 10px);
   top: 0;
   background-color: #08ffc5;
   border: 1px solid #08ffc5;
@@ -42,15 +40,18 @@
 
 .box {
   display: flex;
-  gap: 10px;
+  /* flex-direction: column; */
   background-color: #08ffc5;
 }
 
 .companyName {
-  width: 40%;
-  /* background-color: black; */
+  width: 45%;
+}
+.descriptionCompany {
+  width: 55%;
 }
 
-.descriptionCompany {
-  width: 60%;
+.descriptionCompany p {
+  text-wrap: pretty;
+  text-align: left;
 }

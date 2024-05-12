@@ -1,0 +1,25 @@
+{
+  "experiencia" : [
+    { 
+      "id" : 1,
+      "job" : "Analista de Calidad de Software y Soporte Técnico.",
+      "company" : "Universidad Francisco de Paula Santander", 
+      "date" : "Enero 2024 - Presente",
+      "description" : "Encargado de la creación de documentación completa enfocada en la resolucion de problemas y apoyo a los usuarios. Responsable de elaborar manuales detallados, realizar pruebas de calidad, documentar procedimientos, soluciones y mejores practicas en el funcionamiento de la plataforma, generar informes tecnicos y brindar soporte de primera linea colaborando con los equipos de desarrollo."
+    },
+    { 
+      "id" : 2,
+      "job" : "Asistente de Enseñanza Fullstack.",
+      "company" : "SoyHenry Bootcamp", 
+      "date" : "Julio 2023 - Agosto 2023",
+      "description" : "Mentor de estudiantes en el desarrollo web full stack, brindándoles apoyo individualizado, conferencias y explicaciones de lógica de programación en JavaScript. Mi objetivo: sentar las bases para su éxito en el Bootcamp y su futuro como desarrolladores."
+    },
+    { 
+      "id" : 3,
+      "job" : "Jefe de Logistica",
+      "company" : "Villaceramica", 
+      "date" : "Julio 2022 - Abril 2023",
+      "description" : "De manera eficiente y organizada, cree y gestione un proceso de almacenamiento, en el cual se dividio por sectores, enfocados en los productos mas utilizados hasta los no tan comunes, tamaño, uso y fragilidad, aumentando en un 70% la eficacia al despacho del producto y al momento de implementar los inventarios."
+    }
+  ]
+}
