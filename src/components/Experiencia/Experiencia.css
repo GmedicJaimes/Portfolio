@@ -1,0 +1,29 @@
+.containerExperiencia {
+  height: auto;
+  /* height: 80vh; */
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "Lexend Deca";
+  background-color: aqua;
+}
+
+.containerExperiencia h1 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.containerExperiencia .contentsExperiencia {
+  padding: 0px 30px;
+  border-left: 2px solid #ffffff52;
+}
+
+.contentsExperiencia .box {
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.4s;
+}

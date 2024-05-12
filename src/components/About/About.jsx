@@ -2,8 +2,6 @@ import img from "../../assets/foto3.png";
 import style from "../About/About.module.css";
 import CV from "../../CV-GULLIANO.pdf";
 
-import { FormattedMessage } from "react-intl";
-
 const About = () => {
   return (
     <section className={style.containerAbout} id="/">
@@ -17,13 +15,13 @@ const About = () => {
           </a>
         </button>
         <div>
-          <h1>Hey, soy Gulliano Jaimes.</h1>
+          <h1>Hola! soy Gulliano Jaimes.</h1>
           <h3>Desarrollador de Software</h3>
         </div>
         <p>
           +1 año de experiencia.{" "}
           <span className={style.span}>
-            Desarrollador de Software y Administrador de Empresas.
+            Administrador de Empresas y Desarrollador de Software.
           </span>{" "}
           <span>
             Especializado en la construción y mantenimiento de aplicaciones web
