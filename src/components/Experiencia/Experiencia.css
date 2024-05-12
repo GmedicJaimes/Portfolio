@@ -22,7 +22,7 @@
 
 .contentsExperiencia .box {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   /* border: 1px solid #eaeaea; */
 }
 
@@ -40,13 +40,25 @@
 
 .box {
   display: flex;
-  /* flex-direction: column; */
-  background-color: #08ffc5;
+  color: #fff;
+  gap: 10px;
 }
 
 .companyName {
   width: 45%;
 }
+
+.companyName h2 {
+  color: #08ffc5;
+  font-size: 19px;
+  /* line-height: normal; */
+}
+
+.companyName h4 {
+  color: #ffffffc0;
+  font-size: 14px;
+}
+
 .descriptionCompany {
   width: 55%;
 }
@@ -54,4 +66,9 @@
 .descriptionCompany p {
   text-wrap: pretty;
   text-align: left;
+  color: #ffffffc0;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Lexend Deca";
+  /* line-height: normal; */
 }
