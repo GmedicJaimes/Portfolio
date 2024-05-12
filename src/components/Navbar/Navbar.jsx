@@ -1,14 +1,8 @@
-import { useContext } from "react";
 import "../Navbar/Navbar.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
-import { FormattedMessage } from "react-intl";
-import { langContext } from "../../context/langContext";
-
 const Navbar = () => {
-  const idioma = useContext(langContext);
-
   const [navActive, setNavActive] = useState(false);
 
   const toggleNav = () => {
@@ -74,10 +68,10 @@ const Navbar = () => {
                 onClick={closeMenu}
                 activeClass="navbar--active-content"
                 className="navbar--content"
-                to="projects"
+                to="experience"
                 spy={true}
                 smooth={true}
-                offset={100}
+                offset={-90}
                 duration={1500}
               >
                 Experiencia
