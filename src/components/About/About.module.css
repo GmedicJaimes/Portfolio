@@ -49,7 +49,7 @@
   background-size: 200%;
   color: transparent;
   background-clip: text;
-  animation: shine 3s linear infinite;
+  animation: shine 6s linear infinite;
 }
 
 .infoAbout p {

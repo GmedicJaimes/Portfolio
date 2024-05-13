@@ -1,6 +1,5 @@
 .containerExperiencia {
   height: auto;
-  /* height: 80vh; */
   margin-left: 20%;
   margin-right: 20%;
   font-family: "Lexend Deca";
@@ -29,11 +28,11 @@
 .contentsExperiencia .box::before {
   content: "";
   position: absolute;
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  right: calc(100% + 10px);
-  top: 0;
+  right: calc(100% + 11px);
+  top: 10px;
   background-color: #08ffc5;
   border: 1px solid #08ffc5;
 }

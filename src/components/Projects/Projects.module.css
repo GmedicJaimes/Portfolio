@@ -1,26 +1,18 @@
 .containerProjects {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100vh;
+
+  height: auto;
   margin-left: 20%;
   margin-right: 20%;
-  padding-top: 14%;
   font-family: "Lexend Deca";
-  /* background-color: #da870a; */
-}
-
-.containerProjects h5 {
-  color: rgba(255, 255, 255, 0.473);
-  font-weight: 300;
-  font-size: 1em;
+  background-color: #da870a;
 }
 
 .containerProjects h1 {
   color: rgb(255, 255, 255);
   font-weight: 500;
-  font-size: 2.2em;
+  font-size: 30px;
   margin-bottom: 80px;
 }
 

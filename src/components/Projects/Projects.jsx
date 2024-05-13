@@ -1,24 +1,11 @@
 import style from "./Projects.module.css";
-import img1 from "../../assets/img/DL.jpg";
-import img2 from "../../assets/img/ND.jpg";
-import img3 from "../../assets/img/RM.jpg";
+
 import { FormattedMessage } from "react-intl";
 
 const Projects = () => {
-  //   <a href="https://ibb.co/r5TYCBv"><img src="https://i.ibb.co/gtHN506/DL.jpg" alt="DL" border="0"></a>
-  // <a href="https://ibb.co/5sj0HYq"><img src="https://i.ibb.co/h2d6zXp/ND.jpg" alt="ND" border="0"></a>
-  // <a href="https://ibb.co/0J6tNzV"><img src="https://i.ibb.co/Lpc5wsh/RM.jpg" alt="RM" border="0"></a>
   return (
     <section id="projects" className={style.containerProjects}>
-      <h5>
-        <FormattedMessage
-          id="projects.subtitle"
-          defaultMessage="Browse My Recent"
-        />
-      </h5>
-      <h1>
-        <FormattedMessage id="projects.title" defaultMessage="Projects" />
-      </h1>
+      <h1>Proyectos</h1>
 
       <div className={style.projectsCards}>
         <a href="https://dreamlodgeprueba.web.app/" target="_blank">
