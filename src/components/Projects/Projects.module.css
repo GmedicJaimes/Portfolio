@@ -28,11 +28,6 @@
   color: white;
 }
 
-.projectsCards a:hover {
-  transform: translateY(-10px);
-  transition: 0.5s;
-}
-
 .cardProjects {
   width: 303px;
   height: 380px;
