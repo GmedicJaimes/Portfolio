@@ -25,7 +25,12 @@ const Projects = () => {
 
             <div>
               <h3>NationData</h3>
-              <p></p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus cumque nihil, id perferendis perspiciatis delectus
+                quidem accusamus at reprehenderit labore laudantium. Veniam
+                aspernatur quibusdam quas minima, tempore ullam quaerat totam!
+              </p>
               <p className={style.cardP}></p>
             </div>
           </div>
