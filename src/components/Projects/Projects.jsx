@@ -13,9 +13,11 @@ const Projects = () => {
           <div className={style.cardProjects}>
             <img src={v.img} alt="" />
             <div>
-              <h3>{v.nombre}</h3>
-              <p>{v.tecnologias}</p>
-              <p className={style.cardP}>{v.description}</p>
+              <h1>{v.nombre}</h1>
+              <ul>
+                <li>{v.tecnologias}</li>
+              </ul>
+              <p>{v.description}</p>
               <a href={v.link}>Link</a>
             </div>
           </div>

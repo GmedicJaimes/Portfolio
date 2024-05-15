@@ -34,7 +34,6 @@
   gap: 30px;
   width: 100%;
   height: 250px;
-  background-color: #da870a23;
 }
 
 .cardProjects img {
@@ -42,31 +41,29 @@
   height: 100%;
   background-size: cover;
   border-radius: 15px;
-  border: 1px solid #ffffff83;
+  border: 1px solid #ffffff54;
 }
 
-.cardProjects h3 {
-  font-size: 1.2em;
+.cardProjects h1 {
+  font-size: 24px;
   font-weight: 500;
-  color: #da870a;
+  color: #08ffc5;
   margin-bottom: 15px;
   padding-bottom: 5px;
-  border-bottom: 1px solid #da870a96;
 }
 
 .cardProjects p {
-  font-size: 0.8em;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 300;
   margin-bottom: 15px;
-  color: rgba(255, 255, 255, 0.596);
+  color: #ffffffc0;
 }
 
-.cardProjects .cardP {
-  font-size: 0.8em;
-  font-weight: 400;
-  color: white;
-  /* line-height: 0.1em; */
-  /* margin-top: 55px; */
+.cardProjects a {
+  width: 50px;
+  font-weight: 300px;
+  background-color: #ffffffc0;
+  display: flex;
 }
 
 @media screen and (min-width: 300px) and (max-width: 640px) {
