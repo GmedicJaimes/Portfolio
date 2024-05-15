@@ -1,4 +1,5 @@
 import style from "./Projects.module.css";
+import data from "../../data.json";
 
 import { FormattedMessage } from "react-intl";
 
@@ -8,45 +9,17 @@ const Projects = () => {
       <h1>Proyectos</h1>
 
       <div className={style.projectsCards}>
-        <a href="https://dreamlodgeprueba.web.app/" target="_blank">
+        {data.proyectos.map((v) => (
           <div className={style.cardProjects}>
-            <img src="https://i.ibb.co/gtHN506/DL.jpg" alt="" />
+            <img src={v.img} alt="" />
             <div>
-              <h3>DreamLodge</h3>
-              <p></p>
-              <p className={style.cardP}></p>
+              <h3>{v.nombre}</h3>
+              <p>{v.tecnologias}</p>
+              <p className={style.cardP}>{v.description}</p>
+              <a href={v.link}>Link</a>
             </div>
           </div>
-        </a>
-
-        <a href="https://pi-nacion-data.vercel.app/" target="_blank">
-          <div className={style.cardProjects}>
-            <img src="https://i.ibb.co/h2d6zXp/ND.jpg" alt="" />
-
-            <div>
-              <h3>NationData</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus cumque nihil, id perferendis perspiciatis delectus
-                quidem accusamus at reprehenderit labore laudantium. Veniam
-                aspernatur quibusdam quas minima, tempore ullam quaerat totam!
-              </p>
-              <p className={style.cardP}></p>
-            </div>
-          </div>
-        </a>
-
-        <a href="https://rick-and-morty-rust-seven.vercel.app/" target="_blank">
-          <div className={style.cardProjects}>
-            <img src="https://i.ibb.co/Lpc5wsh/RM.jpg" alt="" />
-
-            <div>
-              <h3>Rick & Morty</h3>
-              <p></p>
-              <p className={style.cardP}></p>
-            </div>
-          </div>
-        </a>
+        ))}
       </div>
     </section>
   );
