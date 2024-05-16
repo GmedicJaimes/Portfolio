@@ -1,31 +1,33 @@
 import ProjectItem from "./ProjectItem.jsx/ProjectItem";
 import style from "./Projects.module.css";
-// import data from "../../data.json";
+import img1 from "../../assets/img/DL.jpg";
+import img2 from "../../assets/img/ND.jpg";
+import img3 from "../../assets/img/RM.jpg";
 
 const PROJECTS = [
   {
     id: 1,
-    img: "",
+    src: img1,
     nombre: "Dreamlodge",
     tecnologias: "tecnologias",
     description: "description",
-    link: "link",
+    link: "https://dreamlodgeprueba.web.app/",
   },
   {
     id: 2,
-    img: "",
+    src: img2,
     nombre: "NationData",
     tecnologias: "tecnologias",
     description: "description",
-    link: "link",
+    link: "https://pi-nacion-data.vercel.app/",
   },
   {
     id: 3,
-    img: "",
+    src: img3,
     nombre: "Rick and Morty",
     tecnologias: "tecnologias",
     description: "description",
-    link: "link",
+    link: "https://rick-and-morty-rust-seven.vercel.app/",
   },
 ];
 
@@ -38,7 +40,7 @@ const Projects = () => {
         {PROJECTS.map((pro) => (
           <ProjectItem
             key={pro.id}
-            img={pro.img}
+            img={pro.src}
             nombre={pro.nombre}
             tecnologias={pro.tecnologias}
             description={pro.description}
