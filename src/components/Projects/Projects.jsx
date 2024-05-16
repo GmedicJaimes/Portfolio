@@ -10,7 +10,7 @@ const Projects = () => {
 
       <div className={style.projectsCards}>
         {data.proyectos.map((v) => (
-          <div className={style.cardProjects}>
+          <div className={style.cardProjects} key={v.id}>
             <img src={v.img} alt="" />
             <div>
               <h1>{v.nombre}</h1>
