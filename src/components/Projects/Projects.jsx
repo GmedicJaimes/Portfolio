@@ -1,7 +1,33 @@
+import ProjectItem from "./ProjectItem.jsx/ProjectItem";
 import style from "./Projects.module.css";
-import data from "../../data.json";
+// import data from "../../data.json";
 
-import { FormattedMessage } from "react-intl";
+const PROJECTS = [
+  {
+    id: 1,
+    img: "",
+    nombre: "Dreamlodge",
+    tecnologias: "tecnologias",
+    description: "description",
+    link: "link",
+  },
+  {
+    id: 2,
+    img: "",
+    nombre: "NationData",
+    tecnologias: "tecnologias",
+    description: "description",
+    link: "link",
+  },
+  {
+    id: 3,
+    img: "",
+    nombre: "Rick and Morty",
+    tecnologias: "tecnologias",
+    description: "description",
+    link: "link",
+  },
+];
 
 const Projects = () => {
   return (
@@ -9,18 +35,15 @@ const Projects = () => {
       <h1>Proyectos</h1>
 
       <div className={style.projectsCards}>
-        {data.proyectos.map((v) => (
-          <div className={style.cardProjects} key={v.id}>
-            <img src={v.img} alt="" />
-            <div>
-              <h1>{v.nombre}</h1>
-              <ul>
-                <li>{v.tecnologias}</li>
-              </ul>
-              <p>{v.description}</p>
-              <a href={v.link}>Link</a>
-            </div>
-          </div>
+        {PROJECTS.map((pro) => (
+          <ProjectItem
+            key={pro.id}
+            img={pro.img}
+            nombre={pro.nombre}
+            tecnologias={pro.tecnologias}
+            description={pro.description}
+            link={pro.link}
+          />
         ))}
       </div>
     </section>

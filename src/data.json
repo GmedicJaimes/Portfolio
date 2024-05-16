@@ -21,31 +21,6 @@
       "date" : "Julio 2022 - Abril 2023",
       "description" : "De manera eficiente y organizada, cree y gestione un proceso de almacenamiento, en el cual se dividio por sectores, enfocados en los productos mas utilizados hasta los no tan comunes, tamaño, uso y fragilidad, aumentando en un 70% la eficacia al despacho del producto y al momento de implementar los inventarios."
     }
-  ],
-  "proyectos" : [
-    { 
-      "id" : 1,
-      "img": "",
-      "nombre" : "Dreamlodge",
-      "tecnologias" : "tecnologias", 
-      "description" : "description",
-      "link" : "link"
-    },
-    { 
-      "id" : 2,
-      "img": "",
-      "nombre" : "NationData",
-      "tecnologias" : "tecnologias", 
-      "description" : "description",
-      "link" : "link"
-    },
-    { 
-      "id" : 3,
-      "img": "",
-      "nombre" : "Rick and Morty",
-      "tecnologias" : "tecnologias", 
-      "description" : "description",
-      "link" : "link"
-    }
   ]
+   
 }
