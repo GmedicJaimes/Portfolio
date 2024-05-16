@@ -1,18 +1,23 @@
 import React, { useState } from "react";
 import "./Experiencia.css";
-// import data from "../../data.json";
-import { ExperienceItem } from "./ExperienceItem/ExperienceItem";
+import data from "../../data.json";
+import ExperienceItem from "./ExperienceItem/ExperienceItem";
 
 const Experiencia = () => {
-  // const [info, setInfo] = useState(data);
-
   return (
     <article className="containerExperiencia">
       <h1 id="experience">Experiencia Laboral</h1>
 
       <section className="contentsExperiencia">
-        {data.experiencia.map((v) => (
-          
+        {data.experiencia.map((exp) => (
+          // console.log(experiencie)
+          <ExperienceItem
+            key={exp.id}
+            job={exp.job}
+            company={exp.company}
+            date={exp.date}
+            description={exp.description}
+          />
         ))}
       </section>
     </article>
