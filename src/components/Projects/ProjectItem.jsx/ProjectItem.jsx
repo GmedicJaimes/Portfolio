@@ -6,17 +6,19 @@ const ProjectItem = (props) => {
 
   return (
     <div>
-      <div className={style.cardProjects} key={id}>
+      <article className={style.cardProjects} key={id}>
         <img src={img} alt="" />
         <div>
           <h1>{nombre}</h1>
           <ul>
-            <li>{tecnologias}</li>
+            {tecnologias.map((tags) => (
+              <li>{tags}</li>
+            ))}
           </ul>
           <p>{description}</p>
           <a href={link}>Link</a>
         </div>
-      </div>
+      </article>
     </div>
   );
 };
