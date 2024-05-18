@@ -12,7 +12,7 @@ const ProjectItem = (props) => {
           <h1>{nombre}</h1>
           <ul>
             {tecnologias.map((tags) => (
-              <li>{tags}</li>
+              <li key={tags}>{tags}</li>
             ))}
           </ul>
           <p>{description}</p>

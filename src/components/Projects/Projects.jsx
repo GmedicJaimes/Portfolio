@@ -1,8 +1,8 @@
 import ProjectItem from "./ProjectItem.jsx/ProjectItem";
 import style from "./Projects.module.css";
-import img1 from "../../assets/img/DL.jpg";
-import img2 from "../../assets/img/ND.jpg";
-import img3 from "../../assets/img/RM.jpg";
+import img1 from "../../assets/img/DL.webp";
+import img2 from "../../assets/img/ND.webp";
+import img3 from "../../assets/img/RM.webp";
 
 const PROJECTS = [
   {
@@ -17,7 +17,7 @@ const PROJECTS = [
     id: 2,
     src: img2,
     nombre: "NationData",
-    tecnologias: [],
+    tecnologias: ["React", "Node.js", "Redux"],
     description: "description",
     link: "https://pi-nacion-data.vercel.app/",
   },
