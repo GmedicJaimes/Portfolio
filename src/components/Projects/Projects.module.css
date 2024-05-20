@@ -40,15 +40,32 @@
   width: 430px;
   height: 100%;
   border-radius: 15px;
-  border: 1px solid #1b2855fa;
+  /* border: 1px solid #1b2855fa; */
+  border: 1px solid #374151;
 }
 
 .cardProjects h1 {
   font-size: 24px;
   font-weight: 500;
   color: #08ffc5;
-  margin-bottom: 15px;
-  padding-bottom: 5px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.cardProjects ul {
+  display: flex;
+  gap: 7px;
+}
+
+.cardProjects ul li {
+  width: 100px;
+  background-color: #08ffc544;
+  color: #fff;
+  border: 1px solid #08ffc5;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .cardProjects p {
