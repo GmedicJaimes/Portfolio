@@ -45,12 +45,12 @@
 }
 
 .cardProjects div {
-  width: 50%;
+  width: 45%;
 }
 
 .cardProjects h1 {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 22.5px;
+  font-weight: 400;
   color: #08ffc5;
   /* color: #fff; */
   margin-bottom: 14px;
@@ -79,7 +79,6 @@
   font-size: 16px;
   font-weight: 300;
   color: #ffffffc0;
-  text-wrap: balance;
   margin-bottom: 14px;
 }
 

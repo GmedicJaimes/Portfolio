@@ -11,23 +11,25 @@ const PROJECTS = [
     nombre: "Dreamlodge - Encuentra tu lugar de descanso",
     tecnologias: ["React", "Node.js", "Firebase", "Firestore"],
     description:
-      "Plataforma en linea que conecta a propietarios de viviendas con viajeros que buscan estadias unicas. Permite a los anfitriones monetizar sus propiedades y a los huéspedes vivir experiencias locales auténticas.",
+      "Plataforma que conecta a propietarios de viviendas con viajeros que buscan estadias unicas. Permite a los anfitriones monetizar sus propiedades y a los huéspedes vivir experiencias locales auténticas.",
     link: "https://dreamlodgeprueba.web.app/",
   },
   {
     id: 2,
     src: img2,
-    nombre: "NationData",
+    nombre: "NationData - Aprende sobre todos los paises del mundo",
     tecnologias: ["React", "Node.js", "Redux"],
-    description: "description",
+    description:
+      "Plataforma educativa que brinda acceso a información detallada y recursos interactivos sobre todos los paises del mundo. ",
     link: "https://pi-nacion-data.vercel.app/",
   },
   {
     id: 3,
     src: img3,
-    nombre: "Rick and Morty",
-    tecnologias: [],
-    description: "description",
+    nombre: "Rick and Morty - Aprende sobre la mejor serie del momento",
+    tecnologias: ["React", "Node.js", "Redux", "Express.js"],
+    description:
+      "Plataforma gratuita creada para conocer y aprender sobre la seria mas cool del momento. Con mas de 826 personajes para descrubrir.",
     link: "https://rick-and-morty-rust-seven.vercel.app/",
   },
 ];
