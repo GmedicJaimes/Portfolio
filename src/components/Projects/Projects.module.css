@@ -37,19 +37,24 @@
 }
 
 .cardProjects img {
-  width: 430px;
+  width: 45%;
   height: 100%;
   border-radius: 15px;
-  /* border: 1px solid #1b2855fa; */
+  /* border: 1px solid #202f66fa; */
   border: 1px solid #374151;
+}
+
+.cardProjects div {
+  width: 50%;
 }
 
 .cardProjects h1 {
   font-size: 24px;
   font-weight: 500;
   color: #08ffc5;
-  color: #fff;
-  margin-bottom: 8px;
+  /* color: #fff; */
+  margin-bottom: 14px;
+  line-height: 1;
 }
 
 .cardProjects ul {
@@ -58,28 +63,41 @@
 }
 
 .cardProjects ul li {
-  width: 100px;
-  background-color: #08ffc544;
+  width: 80px;
+  /* background-color: #08ffc544; */
+  background-color: #ffffff2a;
   color: #fff;
-  border: 1px solid #08ffc5;
+  /* border: 1px solid #fff; */
   border-radius: 20px;
   text-align: center;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 12.5px;
+  font-weight: 300;
+  margin-bottom: 14px;
 }
 
 .cardProjects p {
   font-size: 16px;
   font-weight: 300;
-  margin-bottom: 15px;
   color: #ffffffc0;
+  text-wrap: balance;
+  margin-bottom: 14px;
 }
 
 .cardProjects a {
-  width: 50px;
-  font-weight: 300px;
-  background-color: #ffffffc0;
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300px;
+  font-size: 14px;
+  background-color: #08ffc533;
+  border: #08ffc5 1px solid;
+}
+
+.cardProjects a:hover {
+  border: none;
 }
 
 @media screen and (min-width: 300px) and (max-width: 640px) {

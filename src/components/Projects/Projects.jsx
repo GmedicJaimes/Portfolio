@@ -8,9 +8,10 @@ const PROJECTS = [
   {
     id: 1,
     src: img1,
-    nombre: "Dreamlodge",
+    nombre: "Dreamlodge - Encuentra tu lugar de descanso",
     tecnologias: ["React", "Node.js", "Firebase", "Firestore"],
-    description: "description",
+    description:
+      "Plataforma en linea que conecta a propietarios de viviendas con viajeros que buscan estadias unicas. Permite a los anfitriones monetizar sus propiedades y a los huéspedes vivir experiencias locales auténticas.",
     link: "https://dreamlodgeprueba.web.app/",
   },
   {

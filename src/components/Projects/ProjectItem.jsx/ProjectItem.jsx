@@ -16,7 +16,9 @@ const ProjectItem = (props) => {
             ))}
           </ul>
           <p>{description}</p>
-          <a href={link}>Link</a>
+          <a href={link} target="_blank">
+            Preview
+          </a>
         </div>
       </article>
     </div>
