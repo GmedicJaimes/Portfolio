@@ -18,6 +18,10 @@ const ProjectItem = (props) => {
           <p>{description}</p>
           <a href={link} target="_blank">
             Preview
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/3018/3018434.png"
+              alt=""
+            />
           </a>
         </div>
       </article>

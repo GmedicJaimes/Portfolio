@@ -30,6 +30,12 @@
   font-size: 0.9em;
 }
 
+.infoAbout button:hover {
+  border: #08ffc500 1px solid;
+  transform: scale(1.04);
+  transition: 400ms;
+}
+
 .infoAbout h1 {
   font-size: 2.7em;
   font-weight: 600;
