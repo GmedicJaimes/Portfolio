@@ -24,10 +24,10 @@ const About = () => {
             Administrador de Empresas y Desarrollador de Software.
           </span>{" "}
           <span>
-            Especializado en la construción y mantenimiento de aplicaciones web
-            dinamicas y efecientes,
+            Especializado en la construcción y mantenimiento de aplicaciones web
+            dinamicas y eficientes,
           </span>{" "}
-          apasionado por la tecnologia y la innovacion.{" "}
+          apasionado por la tecnologia y la innovación.{" "}
         </p>
 
         <div className={style.buttonsAbout}>

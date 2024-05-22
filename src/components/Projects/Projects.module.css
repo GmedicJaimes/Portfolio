@@ -1,8 +1,8 @@
 .containerProjects {
   display: flex;
   flex-direction: column;
-
   height: auto;
+  margin-top: 5%;
   margin-left: 20%;
   margin-right: 20%;
   font-family: "Lexend Deca";
@@ -41,7 +41,7 @@
   height: 100%;
   border-radius: 15px;
   /* border: 1px solid #202f66fa; */
-  border: 1px solid #374151;
+  border: 1px solid #4b5461;
 }
 
 .cardProjects div {
@@ -50,11 +50,12 @@
 
 .cardProjects h1 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   color: #08ffc5;
   /* color: #fff; */
   margin-bottom: 20px;
   line-height: 1;
+  text-shadow: 1px 1px 2px #ffffff62;
 }
 
 .cardProjects ul {
