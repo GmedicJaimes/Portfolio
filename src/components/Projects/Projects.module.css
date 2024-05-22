@@ -55,7 +55,6 @@
   /* color: #fff; */
   margin-bottom: 20px;
   line-height: 1;
-  text-shadow: 1px 1px 2px #ffffff62;
 }
 
 .cardProjects ul {
@@ -77,7 +76,7 @@
 }
 
 .cardProjects p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   color: #ffffffc0;
   margin-bottom: 14px;

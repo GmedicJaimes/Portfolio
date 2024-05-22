@@ -43,7 +43,7 @@ const Navbar = () => {
           to="/"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-30}
           duration={1500}
         >
           <img src="./src/assets/foto3.png" alt="" />
@@ -72,7 +72,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 offset={-90}
-                duration={1500}
+                duration={2500}
               >
                 Experiencia
               </Link>
@@ -86,7 +86,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 offset={-90}
-                duration={1500}
+                duration={2500}
               >
                 Proyectos
               </Link>
@@ -99,8 +99,8 @@ const Navbar = () => {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={50}
-                duration={1500}
+                offset={-80}
+                duration={2500}
               >
                 Sobre mi
               </Link>
