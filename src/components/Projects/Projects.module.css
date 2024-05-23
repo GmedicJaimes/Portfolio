@@ -79,12 +79,12 @@
   font-size: 15px;
   font-weight: 300;
   color: #ffffffc0;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
 .cardProjects a {
   width: 100px;
-  padding: 4px;
+  /* padding: 4px; */
   border-radius: 6px;
   display: flex;
   justify-content: center;
