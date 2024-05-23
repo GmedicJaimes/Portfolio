@@ -1,19 +1,38 @@
 import style from "./Skills.module.css";
 
 const Skills = () => {
-  const frontend = ["HTML", "CSS", "JavaScript", "React", "Redux"];
+  const frontend = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Redux",
+    "TailwindCSS",
+    "Bootstrap",
+  ];
   const backend = [
+    "PHP",
+    "Codeigniter 4",
     "NodeJs",
     "ExpressJs",
     "Sequelize",
     "API Rest",
+    "MySQL",
     "PostgreSQL",
   ];
-  const other = ["Git", "Github", "Vercel", "Jest", "Scrum", "VS Code"];
+  const skills = [
+    "Git",
+    "Github",
+    "Vercel",
+    "npm",
+    "Terminal",
+    "VSCode",
+    "Xampp",
+  ];
 
   return (
     <section id="skills" className={style.containerSkills}>
-      <h1>Skills</h1>
+      <h1>Tecnologías</h1>
       <div className={style.skills}>
         <div className={style.cardSkills}>
           <div className={style.cardSkillsTitle}>
@@ -39,7 +58,7 @@ const Skills = () => {
           <div className={style.cardSkillsTitle}>
             <h3>Herramientas</h3>
           </div>
-          {other.map((item) => (
+          {skills.map((item) => (
             <ul key={item}>
               <li>{item}</li>
             </ul>
