@@ -1,0 +1,125 @@
+.containerSkills {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20%;
+  font-family: "Lexend Deca";
+
+  /* background-color: aqua; */
+}
+
+.containerSkills h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.firstSkills {
+  display: flex;
+  gap: 20px;
+}
+
+.firstSkills .cardSkills {
+  width: 50%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.13);
+  border: 1px solid #4b5461;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.firstSkills .cardSkills ul {
+  background-color: aqua;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.cardSkills {
+  border-radius: 10px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.13);
+  border: 1px solid #4b5461;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cardSkills ul {
+  /* background-color: rgb(238, 255, 0); */
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.cardSkills ul img {
+  width: 100%;
+  height: 60px;
+}
+
+.cardSkills .infoSkills {
+  /* background-color: aqua; */
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardSkillsTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cardSkillsTitle img {
+}
+
+.cardSkillsTitle h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+@media screen and (min-width: 300px) and (max-width: 640px) {
+  .containerSkills {
+    height: 100vh;
+    margin-top: 10em;
+    padding-top: 40%;
+    font-family: "Lexend Deca";
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+}
