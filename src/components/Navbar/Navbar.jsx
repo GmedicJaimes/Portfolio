@@ -113,26 +113,12 @@ const Navbar = () => {
                 to="skills"
                 spy={true}
                 smooth={true}
-                offset={50}
-                duration={1500}
+                offset={-70}
+                duration={2500}
               >
                 Skills
               </Link>
             </li>
-            {/* <li>
-              <Link
-                onClick={closeMenu}
-                activeClass="navbar--active-content"
-                className="navbar--content"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={2000}
-              >
-                Contactame
-              </Link>
-            </li> */}
           </ul>
         </div>
       </div>
