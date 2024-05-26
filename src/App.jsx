@@ -10,6 +10,7 @@ import Experiencia from "./components/Experiencia/Experiencia";
 import React, { useContext } from "react";
 
 import { langContext } from "./context/langContext";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const idioma = useContext(langContext);
@@ -23,6 +24,7 @@ function App() {
       <AboutMe />
       <Skills />
       {/* <Form /> */}
+      <Footer />
     </div>
   );
 }
