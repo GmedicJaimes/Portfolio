@@ -1,7 +1,8 @@
 footer {
-  margin: 4% 20%;
+  margin: 2% 20%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 footer span {

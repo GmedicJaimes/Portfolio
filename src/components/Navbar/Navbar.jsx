@@ -1,6 +1,7 @@
 import "../Navbar/Navbar.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import img from "../../assets/foto3.png";
 
 const Navbar = () => {
   const [navActive, setNavActive] = useState(false);
@@ -46,7 +47,7 @@ const Navbar = () => {
           offset={-30}
           duration={1500}
         >
-          <img src="./src/assets/foto3.png" alt="" />
+          <img src={img} alt="" />
           <h1>Gulliano Jaimes</h1>
         </Link>
       </div>
