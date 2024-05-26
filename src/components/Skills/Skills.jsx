@@ -1,73 +1,69 @@
 import "./Skills.css";
 
 const Skills = () => {
-  const frontend = [
+  const tech = [
     {
-      icon: "",
+      icon: "https://svgl.app/library/html5.svg",
       nombre: "HTML",
     },
     {
-      icon: "",
+      icon: "https://svgl.app/library/css.svg",
       nombre: "CSS",
     },
     {
-      icon: "",
+      icon: "https://svgl.app/library/javascript.svg",
       nombre: "JavaScript",
     },
     {
-      icon: "",
+      icon: "https://svgl.app/library/react.svg",
       nombre: "React",
     },
     {
-      icon: "",
+      icon: "https://svgl.app/library/redux.svg",
       nombre: "Redux",
     },
     {
-      icon: "",
+      icon: "https://svgl.app/library/tailwindcss.svg",
       nombre: "TailwindCSS",
     },
     {
-      icon: "",
+      icon: "https://svgl.app/library/bootstrap.svg",
       nombre: "Bootstrap",
     },
-  ];
-  const backend = [
     {
-      icon: "",
+      icon: "https://svgl.app/library/figma.svg",
+      nombre: "Figma",
+    },
+    {
+      icon: "https://svgl.app/library/php_dark.svg",
       nombre: "PHP",
     },
     {
-      icon: "",
+      icon: "https://cdn.icon-icons.com/icons2/2415/PNG/96/codeigniter_plain_wordmark_logo_icon_146592.png",
       nombre: "Codeigniter ",
     },
     {
-      icon: "",
+      icon: "https://cdn.icon-icons.com/icons2/2415/PNG/96/nodejs_plain_logo_icon_146409.png",
       nombre: "Node.JS",
     },
     {
-      icon: "",
+      icon: "https://svgl.app/library/expressjs_dark.svg",
       nombre: "Express.Js",
     },
     {
-      icon: "",
+      icon: "https://svgl.app/library/mysql.svg",
       nombre: "MySQL",
     },
     {
-      icon: "",
+      icon: "https://svgl.app/library/postgresql.svg",
       nombre: "PostgreSQL",
     },
     {
-      icon: "",
-      nombre: "Firebase",
-    },
-  ];
-  const skills = [
-    {
-      icon: "",
+      icon: "https://svgl.app/library/git.svg",
       nombre: "Git",
     },
     {
-      icon: "",
+      icon: "https://svgl.app/library/github.svg",
       nombre: "Github",
     },
     {
@@ -75,65 +71,49 @@ const Skills = () => {
       nombre: "Vercel",
     },
     {
-      icon: "",
+      icon: "https://svgl.app/library/npm.svg",
       nombre: "npm",
     },
     {
-      icon: "",
+      icon: "https://cdn.icon-icons.com/icons2/2367/PNG/96/terminal_shell_icon_143501.png",
       nombre: "Terminal",
     },
     {
-      icon: "",
+      icon: "https://svgl.app/library/vscode.svg",
       nombre: "VSCode",
     },
     {
-      icon: "",
+      icon: "https://cdn.icon-icons.com/icons2/1381/PNG/96/xampp_94513.png",
       nombre: "Xampp",
+    },
+    {
+      icon: "https://svgl.app/library/laravel.svg",
+      nombre: "Laravel",
+    },
+    {
+      icon: "https://svgl.app/library/astro_dark.svg",
+      nombre: "Astro",
+    },
+    {
+      icon: "https://svgl.app/library/nextjs_icon_dark.svg",
+      nombre: "Next.js",
     },
   ];
 
   return (
     <section id="skills" class="containerSkills">
-      <h1>Tecnologías</h1>
+      <h1>Skills</h1>
       <div className="skills">
-        <article className="firstSkills">
-          <div className="cardSkills">
-            <div className="cardSkillsTitle">
-              <h3>Frontend</h3>
-            </div>
-            {frontend.map((item) => (
-              <ul key={item.nombre}>
-                <li>{item.nombre}</li>
-              </ul>
-            ))}
-          </div>
-          <div className="cardSkills">
-            <div className="cardSkillsTitle">
-              <h3>Backend</h3>
-            </div>
-            {backend.map((item) => (
-              <ul key={item.nombre}>
+        {tech.map((item) => (
+          <div className="infoSkills">
+            <ul key={item.nombre}>
+              <li>
                 <img src={item.icon} alt="" />
-                <li>{item.nombre}</li>
-              </ul>
-            ))}
+              </li>
+            </ul>
+            <span>{item.nombre}</span>
           </div>
-        </article>
-        <div className="cardSkills">
-          <div className="cardSkillsTitle">
-            <h3>Herramientas</h3>
-          </div>
-          {skills.map((item) => (
-            <div className="infoSkills">
-              <ul key={item.nombre}>
-                <li>
-                  <img src={item.icon} alt="" />
-                </li>
-              </ul>
-              <span>{item.nombre}</span>
-            </div>
-          ))}
-        </div>
+        ))}
       </div>
     </section>
   );
