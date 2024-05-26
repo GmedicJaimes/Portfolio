@@ -40,15 +40,15 @@ const Skills = () => {
     },
     {
       icon: "https://cdn.icon-icons.com/icons2/2415/PNG/96/codeigniter_plain_wordmark_logo_icon_146592.png",
-      nombre: "Codeigniter ",
+      nombre: "Codeigniter",
     },
     {
       icon: "https://cdn.icon-icons.com/icons2/2415/PNG/96/nodejs_plain_logo_icon_146409.png",
-      nombre: "Node.JS",
+      nombre: "Node.js",
     },
     {
       icon: "https://svgl.app/library/expressjs_dark.svg",
-      nombre: "Express.Js",
+      nombre: "Express.js",
     },
     {
       icon: "https://svgl.app/library/mysql.svg",
@@ -108,7 +108,7 @@ const Skills = () => {
           <div className="infoSkills">
             <ul key={item.nombre}>
               <li>
-                <img src={item.icon} alt="" />
+                <img src={item.icon} alt={item.nombre} />
               </li>
             </ul>
             <span>{item.nombre}</span>

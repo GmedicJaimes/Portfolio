@@ -47,6 +47,8 @@
 .infoSkills:hover {
   background-color: #ffffff2f;
   border: 1px solid #ffffff75;
+  transition: 0.7s ease;
+  cursor: default;
 }
 
 .infoSkills span {
