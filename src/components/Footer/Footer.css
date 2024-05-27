@@ -33,3 +33,20 @@ footer img {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(240deg)
     brightness(105%) contrast(102%);
 }
+
+@media screen and (max-width: 375px) {
+  footer {
+    height: 100px;
+    margin: 10px 0px 0px 15px;
+  }
+
+  footer span {
+    font-size: 14px;
+    text-wrap: balance;
+  }
+
+  footer img {
+    width: 30px;
+    height: 25px;
+  }
+}

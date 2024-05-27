@@ -71,3 +71,11 @@
   font-family: "Lexend Deca";
   /* line-height: normal; */
 }
+
+@media screen and (max-width: 375px) {
+  .containerExperiencia {
+    width: 100%;
+    margin-left: 15px;
+    text-wrap: balance;
+  }
+}

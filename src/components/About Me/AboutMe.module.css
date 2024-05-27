@@ -63,25 +63,28 @@
 
 @media screen and (min-width: 300px) and (max-width: 640px) {
   .containerAboutMe {
-    height: 100%;
-    padding-top: 41%;
+    height: auto;
+    padding-top: 10%;
     margin-left: 5%;
-    margin-right: 5%;
-    /* background-color: aqua; */
   }
 
   .aboutMeInfo {
+    width: 360px;
     display: flex;
     flex-direction: column;
   }
 
-  .aboutMeSection {
+  .aboutMeSectionOne {
     width: 100%;
+    margin-bottom: 20%;
   }
 
-  .aboutMeSection p {
-    color: white;
-    font-weight: 300;
-    font-size: 0.9em;
+  .aboutMeSectionTwo {
+    width: 100%;
+    height: 280px;
+  }
+  .aboutMeSectionTwo img {
+    width: 200px;
+    height: 200px;
   }
 }

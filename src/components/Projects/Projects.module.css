@@ -109,11 +109,10 @@
     brightness(107%) contrast(100%);
 }
 
-@media screen and (min-width: 300px) and (max-width: 640px) {
+@media screen and (max-width: 375px) {
   .containerProjects {
-    height: 100%;
-    margin: 50% 0;
-    padding-top: 50%;
+    height: auto;
+    margin: 0px 0px 0px 15px;
   }
 
   .projectsCards {
@@ -121,6 +120,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .cardProjects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #fff; */
+    height: auto;
+  }
+
+  .cardProjects img {
+    width: 100%;
+  }
+
+  .cardProjects div {
     width: 100%;
   }
 }

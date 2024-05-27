@@ -165,10 +165,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000814;
-    border-bottom: 1px solid #ffc300;
+    background-color: #0c1123;
+    border-bottom: 1px solid #454956;
+    padding-top: 2rem;
     top: -20rem;
     left: 0;
+    height: auto;
     width: 100%;
     transition: all ease-in-out 0.4s;
   }
@@ -199,14 +201,13 @@
   }
 
   .infoNav.active {
-    top: 30px;
+    top: 0px;
   }
 
   .infoButton {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #ffc300; */
     padding-right: 40px;
   }
 
@@ -249,7 +250,12 @@
 }
 
 @media screen and (max-width: 375px) {
+  .containerNav {
+    width: 100%;
+  }
+
   .logoNav {
+    margin-left: 15px;
     padding-left: 0;
     transition: all ease-in-out 0.2s;
   }

@@ -178,6 +178,7 @@
     color: white;
     line-height: 1;
     margin-top: 10px;
+    text-wrap: balance;
   }
 
   .infoAbout h3 {
