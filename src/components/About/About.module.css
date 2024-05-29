@@ -153,7 +153,7 @@
   }
 }
 
-@media screen and (max-width: 392px) {
+@media screen and (max-width: 400px) {
   .containerAbout {
     max-width: 100%;
     display: flex;

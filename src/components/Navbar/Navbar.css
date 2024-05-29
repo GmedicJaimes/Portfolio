@@ -250,9 +250,9 @@
   }
 }
 
-@media screen and (max-width: 392px) {
+@media screen and (max-width: 400px) {
   .containerNav {
-    width: 392px;
+    width: 100%;
   }
 
   .logoNav {
