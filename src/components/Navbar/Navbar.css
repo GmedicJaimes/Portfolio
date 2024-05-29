@@ -1,4 +1,5 @@
 .containerNav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   font-size: 1em;
@@ -249,14 +250,14 @@
   }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 392px) {
   .containerNav {
-    width: 100%;
+    width: 392px;
   }
 
   .logoNav {
-    margin-left: 15px;
-    padding-left: 0;
+    margin: 0;
+    padding-left: 4%;
     transition: all ease-in-out 0.2s;
   }
 

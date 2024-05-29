@@ -72,15 +72,25 @@
   /* line-height: normal; */
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 392px) {
   .containerExperiencia {
-    width: 100%;
-    margin-left: 15px;
+    width: 380px;
+    margin: 0px 0px 0px 15px;
     text-wrap: balance;
+    padding: 0px;
+  }
+
+  .contentsExperiencia {
+    margin: 0;
+    width: 380px;
+  }
+
+  .containerExperiencia h1 {
+    width: 300px;
   }
 
   .box {
-    width: 93%;
-    text-wrap: pretty;
+    width: 95%;
+    text-wrap: balance;
   }
 }

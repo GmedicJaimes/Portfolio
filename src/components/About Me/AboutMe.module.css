@@ -61,11 +61,11 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 392px) {
   .containerAboutMe {
     height: auto;
     padding-top: 10%;
-    margin-left: 5%;
+    margin: 0px 0px 0px 5%;
   }
 
   .aboutMeInfo {

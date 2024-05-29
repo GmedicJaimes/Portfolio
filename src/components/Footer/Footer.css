@@ -34,9 +34,10 @@ footer img {
     brightness(105%) contrast(102%);
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 392px) {
   footer {
-    height: 100px;
+    width: 364px;
+    height: 80px;
     margin: 10px 0px 0px 15px;
   }
 
@@ -46,7 +47,7 @@ footer img {
   }
 
   footer img {
-    width: 30px;
-    height: 25px;
+    width: 25px;
+    height: 20px;
   }
 }

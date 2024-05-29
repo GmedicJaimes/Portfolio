@@ -109,13 +109,19 @@
     brightness(107%) contrast(100%);
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 392px) {
   .containerProjects {
+    /* width: 100%; */
     height: auto;
     margin: 0px 0px 0px 15px;
   }
 
+  .title {
+    width: 300px;
+  }
+
   .projectsCards {
+    width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,7 +129,7 @@
   }
 
   .cardProjects {
-    width: 100%;
+    width: 360px;
     display: flex;
     flex-direction: column;
     /* background-color: #fff; */
