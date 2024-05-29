@@ -55,7 +55,7 @@
   color: #fff;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   .containerSkills {
     /* background-color: #fff; */
     width: 375px;
