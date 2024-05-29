@@ -61,7 +61,7 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 395px) {
   .containerAboutMe {
     height: auto;
     padding-top: 10%;

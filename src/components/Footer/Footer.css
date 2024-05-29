@@ -34,7 +34,7 @@ footer img {
     brightness(105%) contrast(102%);
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 395px) {
   footer {
     height: 100px;
     margin: 10px 0px 0px 15px;

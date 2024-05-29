@@ -109,7 +109,7 @@
     brightness(107%) contrast(100%);
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 395px) {
   .containerProjects {
     height: auto;
     margin: 0px 0px 0px 15px;
